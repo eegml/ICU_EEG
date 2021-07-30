@@ -11,3 +11,18 @@ If it is okay with you, I can re-check your issue and clean up a few things on t
 Best,
 
 John 
+
+
+reading through pull_data.m
+ii_start and ii_stop are related to interictal start and stop timesince
+
+for files with seizures (type=1)
+when not given, the dataset acquistions times are inferred
+dataset_start is the minimum of (ii_start, ii_stop, sz_start, sz_stop)
+dataset_stop = max(ii_start, ii_stop, sz_start, sz_stop)
+
+for type==2, seizure free patient files
+there are again interictal start/stop times ii_start and ii_stop
+
+and the dataset_start/stop are ii_start/ii_stop 
+
