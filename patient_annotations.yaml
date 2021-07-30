@@ -1,0 +1,2006 @@
+1:
+  data_start: 24000
+  data_stop: 54000
+  diagnosis: AMS
+  ii_start:
+  - 24000
+  - 24846
+  - 51868
+  ii_stop:
+  - 24742
+  - 51771
+  - 54000
+  patient: RID0060
+  portal_id: RID0060
+  sz_presence: 1
+  sz_start:
+  - 24742
+  - 51771
+  sz_stop:
+  - 24846
+  - 51868
+  type: 4
+2:
+  data_start: 1968
+  data_stop: 31968
+  diagnosis: SZ
+  ii_start:
+  - 2055
+  - 6120
+  - 6288
+  - 8491
+  - 9455
+  - 10471
+  - 10690
+  - 13432
+  - 13612
+  - 13853
+  - 14581
+  - 14802
+  - 15572
+  - 15771
+  - 15809
+  - 16052
+  - 18846
+  - 19029
+  - 19278
+  - 21721
+  - 21899
+  - 22098
+  - 23607
+  - 23763
+  - 24958
+  - 25163
+  - 25214
+  - 25282
+  - 26738
+  - 26915
+  - 27081
+  - 27265
+  - 28477
+  - 28638
+  - 28760
+  - 28930
+  - 30003
+  - 30171
+  - 30237
+  - 30395
+  - 31266
+  - 31423
+  - 31529
+  - 31671
+  - 32483
+  - 32659
+  - 32741
+  - 33720
+  ii_stop:
+  - 6057
+  - 6208
+  - 8413
+  - 9376
+  - 10373
+  - 10569
+  - 13350
+  - 13504
+  - 13721
+  - 14476
+  - 14619
+  - 15474
+  - 15647
+  - 15776
+  - 15866
+  - 18771
+  - 18916
+  - 19109
+  - 21640
+  - 21796
+  - 21967
+  - 23508
+  - 23642
+  - 24787
+  - 24996
+  - 25168
+  - 25217
+  - 26658
+  - 26799
+  - 26945
+  - 27136
+  - 28388
+  - 28526
+  - 28655
+  - 28790
+  - 29916
+  - 30033
+  - 30175
+  - 30241
+  - 31161
+  - 31271
+  - 31428
+  - 31535
+  - 32373
+  - 32486
+  - 32666
+  - 33599
+  - 33745
+  patient: RID0061
+  portal_id: RID0061
+  sz_presence: 1
+  sz_start:
+  - 1968
+  - 6057
+  - 6208
+  - 8413
+  - 9376
+  - 10373
+  - 10569
+  - 13350
+  - 13504
+  - 13721
+  - 14476
+  - 14619
+  - 15474
+  - 15647
+  - 15776
+  - 15866
+  - 18771
+  - 18916
+  - 19109
+  - 21640
+  - 21796
+  - 21967
+  - 23508
+  - 23642
+  - 24787
+  - 24996
+  - 25168
+  - 25217
+  - 26658
+  - 26799
+  - 26945
+  - 27136
+  - 28388
+  - 28526
+  - 28655
+  - 28790
+  - 29916
+  - 30033
+  - 30175
+  - 30241
+  - 31161
+  - 31271
+  - 31428
+  - 31535
+  - 32373
+  - 32486
+  - 32666
+  - 33599
+  - 33745
+  sz_stop:
+  - 2055
+  - 6120
+  - 6288
+  - 8491
+  - 9455
+  - 10471
+  - 10690
+  - 13432
+  - 13612
+  - 13853
+  - 14581
+  - 14802
+  - 15572
+  - 15771
+  - 15809
+  - 16052
+  - 18846
+  - 19029
+  - 19278
+  - 21721
+  - 21899
+  - 22098
+  - 23607
+  - 23763
+  - 24958
+  - 25163
+  - 25214
+  - 25282
+  - 26738
+  - 26915
+  - 27081
+  - 27265
+  - 28477
+  - 28638
+  - 28760
+  - 28930
+  - 30003
+  - 30171
+  - 30237
+  - 30395
+  - 31266
+  - 31423
+  - 31529
+  - 31671
+  - 32483
+  - 32659
+  - 32741
+  - 33720
+  - 33825
+  type: 3
+3:
+  diagnosis: SZ
+  ii_start:
+  - 500
+  - 878
+  - 1799
+  - 2228
+  - 8771
+  - 9146
+  - 10238
+  - 11020
+  - 11376
+  - 16153
+  - 16238
+  - 16454
+  - 16607
+  - 16715
+  - 16852
+  - 16947
+  - 18018
+  - 18340
+  - 18501
+  - 20429
+  - 21125
+  - 21415
+  - 21655
+  ii_stop:
+  - 860
+  - 1784
+  - 2210
+  - 8757
+  - 9127
+  - 10234
+  - 11000
+  - 11361
+  - 16114
+  - 16210
+  - 16441
+  - 16582
+  - 16695
+  - 16830
+  - 16928
+  - 17996
+  - 18318
+  - 18469
+  - 20406
+  - 21098
+  - 21375
+  - 21623
+  - 24000
+  patient: RID0062
+  portal_id: RID0062
+  sz_presence: 1
+  sz_start:
+  - 860
+  - 1784
+  - 2210
+  - 8757
+  - 9127
+  - 10234
+  - 11000
+  - 11361
+  - 16114
+  - 16210
+  - 16441
+  - 16582
+  - 16695
+  - 16830
+  - 16928
+  - 17996
+  - 18318
+  - 18469
+  - 20406
+  - 21098
+  - 21375
+  - 21623
+  sz_stop:
+  - 878
+  - 1799
+  - 2228
+  - 8771
+  - 9146
+  - 10238
+  - 11020
+  - 11376
+  - 16153
+  - 16238
+  - 16454
+  - 16607
+  - 16715
+  - 16852
+  - 16947
+  - 18018
+  - 18340
+  - 18501
+  - 20429
+  - 21125
+  - 21415
+  - 21655
+  type: 3
+4:
+  diagnosis: SZ
+  ii_start:
+  - 1500
+  - 1932
+  - 4206
+  - 4753
+  - 8245
+  ii_stop:
+  - 1912
+  - 4178
+  - 4740
+  - 8226
+  - 11500
+  patient: RID0063
+  portal_id: RID0063
+  sz_presence: 1
+  sz_start:
+  - 1912
+  - 4178
+  - 4740
+  - 8226
+  - 31648
+  sz_stop:
+  - 1932
+  - 4206
+  - 4753
+  - 8245
+  - 31672
+  type: 3
+5:
+  diagnosis: SZ
+  ii_start:
+  - 105
+  - 363
+  - 634
+  - 912
+  - 1220
+  - 1526
+  - 1864
+  - 2250
+  - 2694
+  - 3316
+  - 3780
+  - 3868
+  - 4052
+  - 4441
+  - 4660
+  - 5679
+  - 6179
+  - 6420
+  - 6716
+  - 7009
+  - 7346
+  - 7724
+  - 8758
+  - 9397
+  - 10318
+  - 10545
+  - 10884
+  - 11244
+  - 11735
+  - 12163
+  - 12480
+  - 12822
+  - 12890
+  - 13165
+  - 13542
+  - 13864
+  - 14202
+  - 14623
+  ii_stop:
+  - 295
+  - 567
+  - 839
+  - 1139
+  - 1443
+  - 1778
+  - 2161
+  - 2605
+  - 3194
+  - 3648
+  - 3804
+  - 3977
+  - 4367
+  - 4586
+  - 5583
+  - 6096
+  - 6354
+  - 6637
+  - 6935
+  - 7265
+  - 7634
+  - 8637
+  - 9296
+  - 10222
+  - 10478
+  - 10842
+  - 11181
+  - 11680
+  - 12114
+  - 12428
+  - 12768
+  - 12862
+  - 13110
+  - 13483
+  - 13803
+  - 14146
+  - 14560
+  - 14978
+  patient: RID0064
+  portal_id: RID0064
+  sz_presence: 1
+  sz_start:
+  - 43
+  - 295
+  - 567
+  - 839
+  - 1139
+  - 1443
+  - 1778
+  - 2161
+  - 2605
+  - 3194
+  - 3648
+  - 3804
+  - 3977
+  - 4367
+  - 4586
+  - 5583
+  - 6096
+  - 6354
+  - 6637
+  - 6935
+  - 7265
+  - 7634
+  - 8637
+  - 9296
+  - 10222
+  - 10478
+  - 10842
+  - 11181
+  - 11680
+  - 12114
+  - 12428
+  - 12768
+  - 12862
+  - 13110
+  - 13483
+  - 13803
+  - 14146
+  - 14560
+  - 14978
+  sz_stop:
+  - 105
+  - 363
+  - 634
+  - 912
+  - 1220
+  - 1526
+  - 1864
+  - 2250
+  - 2694
+  - 3316
+  - 3780
+  - 3868
+  - 4052
+  - 4441
+  - 4660
+  - 5679
+  - 6179
+  - 6420
+  - 6716
+  - 7009
+  - 7346
+  - 7724
+  - 8758
+  - 9397
+  - 10318
+  - 10545
+  - 10884
+  - 11244
+  - 11735
+  - 12163
+  - 12480
+  - 12822
+  - 12890
+  - 13165
+  - 13542
+  - 13864
+  - 14202
+  - 14623
+  - 15041
+  type: 3
+6:
+  diagnosis: misc/unknown
+  ii_start:
+  - 13000
+  - 13827
+  - 15581
+  - 18368
+  - 19763
+  ii_stop:
+  - 13709
+  - 15433
+  - 18216
+  - 19625
+  - 20000
+  patient: RID0065
+  portal_id: RID0065
+  sz_presence: 1
+  sz_start:
+  - 13709
+  - 15433
+  - 18216
+  - 19625
+  sz_stop:
+  - 13827
+  - 15581
+  - 18368
+  - 19763
+  type: 4
+7:
+  diagnosis: SZ
+  ii_start:
+  - 1000
+  - 1948
+  - 5178
+  - 18542
+  - 30618
+  - 37424
+  ii_stop:
+  - 1671
+  - 5067
+  - 18168
+  - 30430
+  - 37253
+  - 38000
+  patient: RID0066
+  portal_id: RID0066
+  sz_presence: 1
+  sz_start:
+  - 1671
+  - 5067
+  - 18168
+  - 30430
+  - 37253
+  sz_stop:
+  - 1948
+  - 5178
+  - 18542
+  - 30618
+  - 37424
+  type: 3
+8:
+  diagnosis: SDH
+  ii_start:
+  - 45227
+  - 47809
+  - 77890
+  ii_stop:
+  - 47603
+  - 77814
+  - 77928
+  patient: RID0067
+  portal_id: RID0067
+  sz_presence: 1
+  sz_start:
+  - 45066
+  - 47603
+  - 77814
+  - 77928
+  sz_stop:
+  - 45227
+  - 47809
+  - 77890
+  - 78041
+  type: 3
+9:
+  diagnosis: SDH
+  ii_start:
+  - 2000
+  - 3444
+  - 3592
+  - 3897
+  - 5005
+  ii_stop:
+  - 3374
+  - 3577
+  - 3879
+  - 4989
+  - 12000
+  patient: RID0068
+  portal_id: RID0068
+  sz_presence: 1
+  sz_start:
+  - 3374
+  - 3577
+  - 3879
+  - 4989
+  sz_stop:
+  - 3444
+  - 3592
+  - 3897
+  - 5005
+  type: 2
+10:
+  diagnosis: AMS
+  ii_start:
+  - 3200
+  - 5139
+  - 5201
+  - 5276
+  - 5338
+  - 5436
+  - 5609
+  - 5730
+  - 5763
+  - 5862
+  - 5949
+  ii_stop:
+  - 5128
+  - 5187
+  - 5263
+  - 5322
+  - 5420
+  - 5593
+  - 5720
+  - 5754
+  - 5846
+  - 5940
+  - 6145
+  patient: RID0069
+  portal_id: RID0069
+  sz_presence: 1
+  sz_start:
+  - 5128
+  - 5187
+  - 5263
+  - 5322
+  - 5420
+  - 5593
+  - 5720
+  - 5754
+  - 5846
+  - 5940
+  - 6145
+  sz_stop:
+  - 5139
+  - 5201
+  - 5276
+  - 5338
+  - 5436
+  - 5609
+  - 5730
+  - 5763
+  - 5862
+  - 5949
+  - 6157
+  type: 1
+12:
+  iic_start: 2000
+  iic_stop: 12000
+  patient: RID0071
+13:
+  diagnosis: SZ
+  ii_start:
+  - 100
+  - 990
+  - 2545
+  - 2587
+  - 2733
+  - 3255
+  - 3307
+  - 3367
+  - 3435
+  - 3578
+  - 3592
+  - 3659
+  - 3740
+  ii_stop:
+  - 956
+  - 2509
+  - 2573
+  - 2721
+  - 3235
+  - 3298
+  - 3315
+  - 3417
+  - 3568
+  - 3580
+  - 3635
+  - 3722
+  - 5100
+  patient: RID0072
+  portal_id: RID0072
+  sz_presence: 1
+  sz_start:
+  - 956
+  - 2509
+  - 2573
+  - 2721
+  - 3235
+  - 3298
+  - 3315
+  - 3417
+  - 3568
+  - 3580
+  - 3635
+  - 3722
+  sz_stop:
+  - 990
+  - 2545
+  - 2587
+  - 2733
+  - 3255
+  - 3307
+  - 3367
+  - 3435
+  - 3578
+  - 3592
+  - 3659
+  - 3740
+  type: 3
+14:
+  diagnosis: ICH
+  ii_start:
+  - 10100
+  - 10345
+  - 21237
+  - 25491
+  - 25655
+  ii_stop:
+  - 10271
+  - 21145
+  - 25413
+  - 25627
+  - 30100
+  patient: RID0073
+  portal_id: RID0073
+  sz_presence: 1
+  sz_start:
+  - 10271
+  - 21145
+  - 25413
+  - 25627
+  sz_stop:
+  - 10345
+  - 21237
+  - 25491
+  - 25655
+  type: 2
+15:
+  diagnosis: SZ
+  ii_start:
+  - 100
+  - 267
+  - 367
+  - 1070
+  - 1441
+  - 2333
+  - 2527
+  - 2700
+  - 2790
+  - 3253
+  - 4671
+  - 5164
+  ii_stop:
+  - 114
+  - 307
+  - 981
+  - 1322
+  - 2214
+  - 2393
+  - 2551
+  - 2730
+  - 3148
+  - 4462
+  - 4925
+  - 10100
+  patient: RID0074
+  portal_id: RID0074
+  sz_presence: 1
+  sz_start:
+  - 114
+  - 307
+  - 981
+  - 1322
+  - 2214
+  - 2393
+  - 2551
+  - 2730
+  - 3148
+  - 4462
+  - 4925
+  sz_stop:
+  - 267
+  - 367
+  - 1070
+  - 1441
+  - 2333
+  - 2527
+  - 2700
+  - 2790
+  - 3253
+  - 4671
+  - 5164
+  type: 1
+18:
+  diagnosis: ICH
+  ii_start:
+  - 100
+  - 4530
+  - 5597
+  - 7537
+  - 13498
+  - 15409
+  ii_stop:
+  - 4355
+  - 5463
+  - 7474
+  - 13469
+  - 15287
+  - 16100
+  patient: RID235_1d807e48
+  portal_id: RID235_1d807e48
+  sz_presence: 1
+  sz_start:
+  - 4355
+  - 5463
+  - 7474
+  - 13469
+  - 15287
+  sz_stop:
+  - 4530
+  - 5597
+  - 7537
+  - 13498
+  - 15409
+  type: 3
+22:
+  diagnosis: Neoplasm
+  ii_start:
+  - 1000
+  - 5893
+  - 8365
+  ii_stop:
+  - 5607
+  - 6130
+  - 11000
+  patient: RID244_2aa72934
+  portal_id: RID244_2aa72934
+  sz_presence: 1
+  sz_start:
+  - 5607
+  - 6130
+  sz_stop:
+  - 5893
+  - 8365
+  type: 4
+23:
+  diagnosis: SZ
+  ii_start:
+  - 1763
+  - 2127
+  - 2327
+  - 2532
+  - 2820
+  - 3054
+  - 3170
+  - 3308
+  - 3728
+  ii_stop:
+  - 1942
+  - 2178
+  - 2340
+  - 2684
+  - 2842
+  - 3139
+  - 3184
+  - 3617
+  - 4356
+  patient: RID249_9f3b5d22
+  portal_id: RID249_9f3b5d22
+  sz_presence: 1
+  sz_start:
+  - 1658
+  - 1942
+  - 2178
+  - 2340
+  - 2684
+  - 2842
+  - 3139
+  - 3184
+  - 3617
+  - 4356
+  sz_stop:
+  - 1763
+  - 2127
+  - 2327
+  - 2532
+  - 2820
+  - 3054
+  - 3170
+  - 3308
+  - 3728
+  - 4458
+  type: 4
+24:
+  diagnosis: Neoplasm
+  ii_start:
+  - 100
+  - 2475
+  - 4723
+  ii_stop:
+  - 2422
+  - 4692
+  - 10100
+  patient: RID250_ac5b1126
+  portal_id: RID250_ac5b1126
+  sz_presence: 1
+  sz_start:
+  - 2422
+  - 4692
+  sz_stop:
+  - 2475
+  - 4723
+  type: 4
+25:
+  diagnosis: ICH
+  ii_start:
+  - 1000
+  - 1193
+  - 2330
+  ii_stop:
+  - 1036
+  - 2193
+  - 6000
+  patient: RID251_702ac93f
+  portal_id: RID251_702ac93f
+  sz_presence: 1
+  sz_start:
+  - 1036
+  - 2193
+  sz_stop:
+  - 1193
+  - 2330
+  type: 4
+26:
+  diagnosis: Sepsis/SZ
+  ii_start:
+  - 243
+  - 720
+  - 1092
+  - 1285
+  - 1911
+  - 2625
+  - 3156
+  - 3767
+  - 4318
+  - 4883
+  - 5494
+  - 5970
+  - 6596
+  - 7236
+  - 7619
+  - 7857
+  - 8557
+  - 9357
+  - 10623
+  - 12409
+  - 13601
+  ii_stop:
+  - 422
+  - 973
+  - 1092
+  - 1643
+  - 2209
+  - 2665
+  - 3484
+  - 3945
+  - 4630
+  - 5181
+  - 5672
+  - 6372
+  - 7072
+  - 7545
+  - 7693
+  - 8334
+  - 9089
+  - 10280
+  - 12037
+  - 13467
+  - 14747
+  patient: RID252_68561f5b
+  portal_id: RID252_68561f5b
+  sz_presence: 1
+  sz_start:
+  - 79
+  - 422
+  - 973
+  - 1092
+  - 1643
+  - 2209
+  - 2665
+  - 3484
+  - 3945
+  - 4630
+  - 5181
+  - 5672
+  - 6372
+  - 7072
+  - 7545
+  - 7693
+  - 8334
+  - 9089
+  - 10280
+  - 12037
+  - 13467
+  - 14747
+  sz_stop:
+  - 243
+  - 720
+  - 1092
+  - 1285
+  - 1911
+  - 2625
+  - 3156
+  - 3767
+  - 4318
+  - 4883
+  - 5494
+  - 5970
+  - 6596
+  - 7236
+  - 7619
+  - 7857
+  - 8557
+  - 9357
+  - 10623
+  - 12409
+  - 13601
+  - 15164
+  type: 4
+27:
+  diagnosis: SZ
+  ii_start:
+  - 1997
+  - 3205
+  - 3524
+  - 4150
+  - 4959
+  - 5192
+  - 7021
+  - 7272
+  - 8508
+  - 9285
+  - 9697
+  - 10432
+  - 10672
+  - 10885
+  - 11336
+  ii_stop:
+  - 3123
+  - 3457
+  - 4078
+  - 4868
+  - 5096
+  - 6923
+  - 7176
+  - 8444
+  - 9218
+  - 9652
+  - 10386
+  - 10617
+  - 10835
+  - 11300
+  - 11462
+  patient: RID253_ae81bb9b
+  portal_id: RID253_ae81bb9b
+  sz_presence: 1
+  sz_start:
+  - 1941
+  - 3123
+  - 3457
+  - 4078
+  - 4868
+  - 5096
+  - 6923
+  - 7176
+  - 8444
+  - 9218
+  - 9652
+  - 10386
+  - 10617
+  - 10835
+  - 11300
+  - 11462
+  sz_stop:
+  - 1997
+  - 3205
+  - 3524
+  - 4150
+  - 4959
+  - 5192
+  - 7021
+  - 7272
+  - 8508
+  - 9285
+  - 9697
+  - 10432
+  - 10672
+  - 10885
+  - 11336
+  - 11515
+  type: 4
+28:
+  diagnosis: misc/unknown
+  ii_start:
+  - 2000
+  - 2275
+  - 2599
+  - 3547
+  - 4320
+  - 8799
+  ii_stop:
+  - 2230
+  - 2494
+  - 3443
+  - 4230
+  - 8665
+  - 12000
+  patient: RID254_a69203f2
+  portal_id: RID254_a69203f2
+  sz_presence: 1
+  sz_start:
+  - 2230
+  - 2494
+  - 3443
+  - 4230
+  - 8665
+  sz_stop:
+  - 2275
+  - 2599
+  - 3547
+  - 4320
+  - 8799
+  type: 4
+29:
+  iic_start: 2000
+  iic_stop: 12000
+  patient: RID255_1d400f18
+30:
+  diagnosis: pneumonia/SZ
+  ii_start:
+  - 30
+  - 434
+  - 1853
+  - 3293
+  - 5199
+  - 7233
+  ii_stop:
+  - 48
+  - 1577
+  - 3001
+  - 4939
+  - 7119
+  - 8030
+  patient: RID256_a80ca08c
+  portal_id: RID256_a80ca08c
+  sz_presence: 1
+  sz_start:
+  - 48
+  - 1577
+  - 3001
+  - 4939
+  - 7119
+  sz_stop:
+  - 434
+  - 1853
+  - 3293
+  - 5199
+  - 7233
+  type: 4
+31:
+  diagnosis: SZ
+  ii_start:
+  - 3000
+  - 3250
+  - 3309
+  - 3473
+  - 3622
+  - 3746
+  - 3871
+  - 3971
+  - 4833
+  - 5044
+  - 5091
+  - 5345
+  - 5509
+  - 5625
+  - 5729
+  - 5911
+  - 6556
+  - 6696
+  - 6776
+  ii_stop:
+  - 3205
+  - 3279
+  - 3369
+  - 3532
+  - 3641
+  - 3811
+  - 3925
+  - 4766
+  - 4952
+  - 5057
+  - 5226
+  - 5450
+  - 5529
+  - 5670
+  - 5836
+  - 6083
+  - 6607
+  - 6723
+  - 8000
+  patient: RID257_5e2a16b8
+  portal_id: RID257_5e2a16b8
+  sz_presence: 1
+  sz_start:
+  - 3205
+  - 3279
+  - 3369
+  - 3532
+  - 3641
+  - 3811
+  - 3925
+  - 4766
+  - 4952
+  - 5057
+  - 5226
+  - 5450
+  - 5529
+  - 5670
+  - 5836
+  - 6083
+  - 6607
+  - 6723
+  sz_stop:
+  - 3250
+  - 3309
+  - 3473
+  - 3622
+  - 3746
+  - 3871
+  - 3971
+  - 4833
+  - 5044
+  - 5091
+  - 5345
+  - 5509
+  - 5625
+  - 5729
+  - 5911
+  - 6556
+  - 6696
+  - 6776
+  type: 3
+32:
+  diagnosis: misc/unknown
+  ii_start:
+  - 400
+  - 747
+  - 1312
+  - 2160
+  ii_stop:
+  - 468
+  - 980
+  - 1825
+  - 2400
+  patient: RID258_d6280c8b
+  portal_id: RID258_d6280c8b
+  sz_presence: 1
+  sz_start:
+  - 468
+  - 980
+  - 1825
+  sz_stop:
+  - 747
+  - 1312
+  - 2160
+  type: 4
+33:
+  diagnosis: anoxic
+  ii_start: 100
+  ii_stop: 10100
+  patient: CNT684
+  portal_id: CNT684
+  sz_presence: 2
+34:
+  diagnosis: unspecified coma
+  ii_start: 100
+  ii_stop: 10100
+  patient: CNT685
+  portal_id: CNT685
+  sz_presence: 2
+35:
+  diagnosis: anoxic
+  ii_start: 100
+  ii_stop: 10100
+  patient: CNT686
+  portal_id: CNT686
+  sz_presence: 2
+36:
+  diagnosis: toxometabolic
+  ii_start: 100
+  ii_stop: 10100
+  patient: CNT687
+  portal_id: CNT687
+  sz_presence: 2
+37:
+  diagnosis: toxometabolic
+  ii_start: 100
+  ii_stop: 10100
+  patient: CNT688
+  portal_id: CNT688
+  sz_presence: 2
+  sz_start: 100
+  sz_stop: 10100
+38:
+  diagnosis: toxometabolic
+  ii_start: 100
+  ii_stop: 10100
+  patient: CNT689
+  portal_id: CNT689
+  sz_presence: 2
+  sz_start: 100
+  sz_stop: 10100
+39:
+  diagnosis: ICH
+  ii_start: 100
+  ii_stop: 10100
+  patient: CNT690
+  portal_id: CNT690
+  sz_presence: 2
+  sz_start: 100
+  sz_stop: 10100
+40:
+  diagnosis: SZ
+  ii_start: 100
+  ii_stop: 10100
+  patient: CNT691
+  portal_id: CNT691
+  sz_presence: 2
+  sz_start: 100
+  sz_stop: 10100
+41:
+  diagnosis: anoxic
+  ii_start: 100
+  ii_stop: 10100
+  patient: CNT692
+  portal_id: CNT692
+  sz_presence: 2
+  sz_start: 100
+  sz_stop: 10100
+42:
+  diagnosis: unspecified coma
+  ii_start: 100
+  ii_stop: 10100
+  patient: CNT694
+  portal_id: CNT694
+  sz_presence: 2
+  sz_start: 100
+  sz_stop: 10100
+43:
+  diagnosis: toxometabolic
+  ii_start: 100
+  ii_stop: 10100
+  patient: CNT695
+  portal_id: CNT695
+  sz_presence: 2
+  sz_start: 100
+  sz_stop: 10100
+44:
+  diagnosis: AMS
+  ii_start: 100
+  ii_stop: 10100
+  patient: CNT698
+  portal_id: CNT698
+  sz_presence: 2
+  sz_start: 100
+  sz_stop: 10100
+45:
+  diagnosis: SZ
+  ii_start: 100
+  ii_stop: 10100
+  patient: CNT700
+  portal_id: CNT700
+  sz_presence: 2
+  sz_start: 100
+  sz_stop: 10100
+46:
+  diagnosis: toxometabolic
+  ii_start: 100
+  ii_stop: 10100
+  patient: CNT701
+  portal_id: CNT701
+  sz_presence: 2
+  sz_start: 100
+  sz_stop: 10100
+47:
+  diagnosis: ICH
+  ii_start: 100
+  ii_stop: 10100
+  patient: CNT702
+  portal_id: CNT702
+  sz_presence: 2
+  sz_start: 100
+  sz_stop: 10100
+48:
+  diagnosis: unspecified coma
+  ii_start: 100
+  ii_stop: 10100
+  patient: CNT705
+  portal_id: CNT705
+  sz_presence: 2
+  sz_start: 100
+  sz_stop: 10100
+49:
+  diagnosis: AMS
+  ii_start: 100
+  ii_stop: 10100
+  patient: CNT706
+  portal_id: CNT706
+  sz_presence: 2
+  sz_start: 100
+  sz_stop: 10100
+50:
+  diagnosis: ICH
+  ii_start: 100
+  ii_stop: 10100
+  patient: CNT708
+  portal_id: CNT708
+  sz_presence: 2
+  sz_start: 100
+  sz_stop: 10100
+51:
+  diagnosis: SZ
+  ii_start: 3000
+  ii_stop: 13000
+  patient: CNT710
+  portal_id: CNT710
+  sz_presence: 2
+  sz_start:
+  - 0
+  - 0
+  sz_stop:
+  - 0
+  - 0
+  type: 3
+52:
+  diagnosis: Neoplasm
+  ii_start: 5000
+  ii_stop: 15000
+  patient: CNT711
+  portal_id: CNT711
+  sz_presence: 2
+  sz_start:
+  - 0
+  - 0
+  sz_stop:
+  - 0
+  - 0
+  type: 4
+53:
+  diagnosis: unspecified coma
+  ii_start: 1000
+  ii_stop: 11000
+  patient: CNT713
+  portal_id: CNT713
+  sz_presence: 2
+  sz_start:
+  - 0
+  - 0
+  sz_stop:
+  - 0
+  - 0
+  type: 4
+54:
+  diagnosis: SZ
+  ii_start: 5000
+  ii_stop: 15000
+  patient: CNT715
+  portal_id: CNT715
+  sz_presence: 2
+  sz_start:
+  - 0
+  - 0
+  sz_stop:
+  - 0
+  - 0
+  type: 3
+57:
+  diagnosis: SZ
+  ii_start: 1000
+  ii_stop: 11000
+  patient: CNT720
+  portal_id: CNT720
+  sz_presence: 2
+  sz_start:
+  - 0
+  - 0
+  sz_stop:
+  - 0
+  - 0
+  type: 3
+59:
+  diagnosis: toxometabolic
+  ii_start: 3000
+  ii_stop: 13000
+  patient: CNT723
+  portal_id: CNT723
+  sz_presence: 2
+  sz_start:
+  - 0
+  - 0
+  sz_stop:
+  - 0
+  - 0
+  type: 4
+60:
+  diagnosis: unspecified coma
+  ii_start: 2000
+  ii_stop: 12000
+  patient: CNT724
+  portal_id: CNT724
+  sz_presence: 2
+  sz_start:
+  - 0
+  - 0
+  sz_stop:
+  - 0
+  - 0
+  type: 4
+61:
+  diagnosis: Neoplasm
+  ii_start: 3000
+  ii_stop: 13000
+  patient: CNT725
+  portal_id: CNT725
+  sz_presence: 2
+  sz_start:
+  - 0
+  - 0
+  sz_stop:
+  - 0
+  - 0
+  type: 4
+62:
+  diagnosis: unspecified coma
+  ii_start: 3000
+  ii_stop: 13000
+  patient: CNT726
+  portal_id: CNT726
+  sz_presence: 2
+  sz_start:
+  - 0
+  - 0
+  sz_stop:
+  - 0
+  - 0
+  type: 4
+63:
+  diagnosis: unspecified coma
+  ii_start: 1000
+  ii_stop: 11000
+  patient: CNT729
+  portal_id: CNT729
+  sz_presence: 2
+  sz_start:
+  - 0
+  - 0
+  sz_stop:
+  - 0
+  - 0
+  type: 4
+64:
+  diagnosis: unspecified coma
+  ii_start: 3000
+  ii_stop: 13000
+  patient: CNT730
+  portal_id: CNT730
+  sz_presence: 2
+  sz_start:
+  - 0
+  - 0
+  sz_stop:
+  - 0
+  - 0
+  type: 4
+65:
+  diagnosis: ICH
+  ii_start: 1000
+  ii_stop: 11000
+  patient: CNT731
+  portal_id: CNT731
+  sz_presence: 2
+  sz_start:
+  - 0
+  - 0
+  sz_stop:
+  - 0
+  - 0
+  type: 2
+66:
+  diagnosis: unspecified coma
+  ii_start: 1000
+  ii_stop: 11000
+  patient: CNT732
+  portal_id: CNT732
+  sz_presence: 2
+  sz_start:
+  - 0
+  - 0
+  sz_stop:
+  - 0
+  - 0
+  type: 4
+67:
+  diagnosis: AMS
+  ii_start: 3000
+  ii_stop: 13000
+  patient: CNT733
+  portal_id: CNT733
+  sz_presence: 2
+  sz_start:
+  - 0
+  - 0
+  sz_stop:
+  - 0
+  - 0
+  type: 1
+68:
+  diagnosis: AMS
+  ii_start: 1000
+  ii_stop: 11000
+  patient: CNT734
+  portal_id: CNT734
+  sz_presence: 2
+  sz_start:
+  - 0
+  - 0
+  sz_stop:
+  - 0
+  - 0
+  type: 1
+69:
+  diagnosis: AMS
+  ii_start: 2000
+  ii_stop: 12000
+  patient: CNT737
+  portal_id: CNT737
+  sz_presence: 2
+  sz_start:
+  - 0
+  - 0
+  sz_stop:
+  - 0
+  - 0
+  type: 1
+70:
+  diagnosis: ICH
+  ii_start: 1000
+  ii_stop: 11000
+  patient: CNT740
+  portal_id: CNT740
+  sz_presence: 2
+  sz_start:
+  - 0
+  - 0
+  sz_stop:
+  - 0
+  - 0
+  type: 2
+71:
+  diagnosis: ICH
+  ii_start: 40000
+  ii_stop: 50000
+  patient: CNT741
+  portal_id: CNT741
+  sz_presence: 2
+72:
+  diagnosis: ICH
+  ii_start: 1000
+  ii_stop: 11000
+  patient: CNT742
+  portal_id: CNT742
+  sz_presence: 2
+73:
+  diagnosis: Neoplasm
+  ii_start: 1000
+  ii_stop: 11000
+  patient: CNT743
+  portal_id: CNT743
+  sz_presence: 2
+74:
+  diagnosis: anoxic
+  ii_start: 8000
+  ii_stop: 18000
+  patient: CNT748
+  portal_id: CNT748
+  sz_presence: 2
+75:
+  diagnosis: ICH
+  ii_start: 3000
+  ii_stop: 13000
+  patient: CNT750
+  portal_id: CNT750
+  sz_presence: 2
+76:
+  diagnosis: ICH
+  ii_start: 1000
+  ii_stop: 11000
+  patient: CNT751
+  portal_id: CNT751
+  sz_presence: 2
+77:
+  diagnosis: AMS
+  ii_start: 9000
+  ii_stop: 19000
+  patient: CNT757
+  portal_id: CNT757
+  sz_presence: 2
+78:
+  diagnosis: toxometabolic
+  ii_start: 1000
+  ii_stop: 11000
+  patient: CNT758
+  portal_id: CNT758
+  sz_presence: 2
+79:
+  diagnosis: ICH
+  ii_start: 1000
+  ii_stop: 11000
+  patient: CNT765
+  portal_id: CNT765
+  sz_presence: 2
+80:
+  diagnosis: ICH
+  ii_start: 1000
+  ii_stop: 11000
+  patient: CNT773
+  portal_id: CNT773
+  sz_presence: 2
+81:
+  diagnosis: toxometabolic
+  ii_start: 35000
+  ii_stop: 45000
+  patient: CNT774
+  portal_id: CNT774
+  sz_presence: 2
+82:
+  diagnosis: toxometabolic
+  ii_start: 7000
+  ii_stop: 17000
+  patient: CNT775
+  portal_id: CNT775
+  sz_presence: 2
+83:
+  diagnosis: unspecified coma
+  ii_start: 2000
+  ii_stop: 12000
+  patient: CNT776
+  portal_id: CNT776
+  sz_presence: 2
+84:
+  diagnosis: ICH
+  ii_start: 13000
+  ii_stop: 23000
+  patient: CNT778
+  portal_id: CNT778
+  sz_presence: 2
+85:
+  diagnosis: AMS
+  ii_start: 6000
+  ii_stop: 16000
+  patient: CNT782
+  portal_id: CNT782
+  sz_presence: 2
+92:
+  diagnosis: Neoplasm
+  ii_start:
+  - 25000
+  - 26019
+  ii_stop:
+  - 25923
+  - 30000
+  patient: ICUDataRedux_0003
+  portal_id: ICUDataRedux_0003
+  sz_presence: 1
+  sz_start: 25923
+  sz_stop: 26019
+93:
+  diagnosis: Neoplasm
+  ii_start:
+  - 20000
+  - 23136
+  ii_stop:
+  - 23125
+  - 30000
+  patient: ICUDataRedux_0004
+  portal_id: ICUDataRedux_0004
+  sz_presence: 1
+  sz_start: 23125
+  sz_stop: 23136
+94:
+  diagnosis: misc/unknown
+  ii_start:
+  - 20600
+  - 25389
+  ii_stop:
+  - 24807
+  - 25600
+  patient: ICUDataRedux_0006
+  portal_id: ICUDataRedux_0006
+  sz_presence: 1
+  sz_start: 24807
+  sz_stop: 25389
+95:
+  diagnosis: '?'
+  iic_start: 3000
+  iic_stop: 13000
+  patient: ICUDataRedux_0007
+  portal_id: ICUDataRedux_0007
+  sz_presence: 3
+96:
+  diagnosis: '?'
+  iic_start: 2000
+  iic_stop: 12000
+  patient: ICUDataRedux_0008
+  portal_id: ICUDataRedux_0008
+  sz_presence: 3
+97:
+  diagnosis: '?'
+  iic_start: 4000
+  iic_stop: 14000
+  patient: ICUDataRedux_0009
+  portal_id: ICUDataRedux_0009
+  sz_presence: 3
+98:
+  diagnosis: '?'
+  iic_start: 12000
+  iic_stop: 22000
+  patient: ICUDataRedux_0010
+  portal_id: ICUDataRedux_0010
+  sz_presence: 3
+99:
+  diagnosis: '?'
+  iic_start: 4000
+  iic_stop: 14000
+  patient: ICUDataRedux_0011
+  portal_id: ICUDataRedux_0011
+  sz_presence: 3
+100:
+  diagnosis: '?'
+  iic_start: 2000
+  iic_stop: 12000
+  patient: ICUDataRedux_0012
+  portal_id: ICUDataRedux_0012
+  sz_presence: 3
+101:
+  diagnosis: '?'
+  iic_start: 1000
+  iic_stop: 11000
+  patient: ICUDataRedux_0013
+  portal_id: ICUDataRedux_0013
+  sz_presence: 3
+102:
+  diagnosis: '?'
+  iic_start: 3000
+  iic_stop: 13000
+  patient: ICUDataRedux_0014
+  portal_id: ICUDataRedux_0014
+  sz_presence: 3
+103:
+  diagnosis: '?'
+  iic_start: 2000
+  iic_stop: 12000
+  patient: ICUDataRedux_0015
+  portal_id: ICUDataRedux_0015
+  sz_presence: 3
+104:
+  diagnosis: '?'
+  iic_start: 2000
+  iic_stop: 12000
+  patient: ICUDataRedux_0016
+  portal_id: ICUDataRedux_0016
+  sz_presence: 3
+105:
+  diagnosis: '?'
+  iic_start: 9000
+  iic_stop: 19000
+  patient: ICUDataRedux_0017
+  portal_id: ICUDataRedux_0017
+  sz_presence: 3
+106:
+  diagnosis: '?'
+  iic_start: 2000
+  iic_stop: 12000
+  patient: ICUDataRedux_0018
+  portal_id: ICUDataRedux_0018
+  sz_presence: 3
+107:
+  diagnosis: '?'
+  iic_start: 1000
+  iic_stop: 11000
+  patient: ICUDataRedux_0019
+  portal_id: ICUDataRedux_0019
+  sz_presence: 3
+108:
+  diagnosis: '?'
+  iic_start: 13000
+  iic_stop: 23000
+  patient: ICUDataRedux_0020
+  portal_id: ICUDataRedux_0020
+  sz_presence: 3
+110:
+  ii_start:
+  - 819
+  - 864
+  - 917
+  - 969
+  - 1018
+  - 1073
+  - 1121
+  - 1176
+  - 1229
+  - 1296
+  - 1366
+  - 1441
+  ii_stop:
+  - 829
+  - 879
+  - 932
+  - 989
+  - 1035
+  - 1089
+  - 1144
+  - 1195
+  - 1266
+  - 1331
+  - 1404
+  - 2600
+  patient: ICUDataRedux_0022
+  sz_start:
+  - 829
+  - 879
+  - 932
+  - 989
+  - 1035
+  - 1089
+  - 1144
+  - 1195
+  - 1266
+  - 1331
+  - 1404
+  sz_stop:
+  - 864
+  - 917
+  - 969
+  - 1018
+  - 1073
+  - 1121
+  - 1176
+  - 1229
+  - 1296
+  - 1366
+  - 1441
