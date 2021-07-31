@@ -28,7 +28,6 @@ function [raw_data, raw_times, raw_labels, sample_rate] = pull_data(pt_num, pt_t
 %           raw_labels: a vector of all labels of size samples x 1
 %                       Class 0 = interictal, non-seizure
 %                       Class 1 = seizure
-%                       Class 2 = IIC (interictal ictal continuum)
 %                       Class 3 = artifact (NOT ASSIGNED HERE)
 %                       Class 4 = NaN
 %
@@ -68,16 +67,6 @@ function [raw_data, raw_times, raw_labels, sample_rate] = pull_data(pt_num, pt_t
         dataset_start = ii_start;
         dataset_stop = ii_stop;
         
-    % Check if patient type = 3, meaning patient is IIC
-    elseif pt_type == 3
-        
-        % Get interictal ictal continuum start and stop times
-        iic_start = eval(['annot_file.annot_' num2str(pt_num) '.iic_start']);
-        iic_stop = eval(['annot_file.annot_' num2str(pt_num) '.iic_stop']);
-        
-        % Find when to start and stop dataset acquisition
-        dataset_start = iic_start;
-        dataset_stop = iic_stop;
     end
     
     % Create intervals, checking if patient has discrete seizures
@@ -177,10 +166,6 @@ function [raw_data, raw_times, raw_labels, sample_rate] = pull_data(pt_num, pt_t
         % correctly - each data point will have a label associated
         [IB] = find(ismember(floor(raw_times),(sz_intervals))==1);
         raw_labels(IB) = 1;
-        
-    % Assign label of 3 for interictal ictal continuum patients
-    elseif pt_type == 3
-        raw_labels = raw_labels + 2;
         
     end
     
