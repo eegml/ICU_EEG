@@ -9,7 +9,7 @@
   - 24742
   - 51771
   - 54000
-  patient: RID0060
+  patient: ICUDataRedux_0060
   sz_start:
   - 24742
   - 51771
@@ -118,7 +118,7 @@
   - 32666
   - 33599
   - 33745
-  patient: RID0061
+  patient: ICUDataRedux_0061
   sz_start:
   - 1968
   - 6057
@@ -221,6 +221,8 @@
   - 33825
   type: 3
 3:
+  data_start: 500
+  data_stop: 24000
   ii_start:
   - 500
   - 878
@@ -269,7 +271,7 @@
   - 21375
   - 21623
   - 24000
-  patient: RID0062
+  patient: ICUDataRedux_0062
   sz_start:
   - 860
   - 1784
@@ -318,6 +320,8 @@
   - 21655
   type: 3
 4:
+  data_start: 1500
+  data_stop: 31672
   ii_start:
   - 1500
   - 1932
@@ -330,7 +334,7 @@
   - 4740
   - 8226
   - 11500
-  patient: RID0063
+  patient: ICUDataRedux_0063
   sz_start:
   - 1912
   - 4178
@@ -345,6 +349,8 @@
   - 31672
   type: 3
 5:
+  data_start: 43
+  data_stop: 15041
   ii_start:
   - 105
   - 363
@@ -423,7 +429,7 @@
   - 14146
   - 14560
   - 14978
-  patient: RID0064
+  patient: ICUDataRedux_0064
   sz_start:
   - 43
   - 295
@@ -506,6 +512,8 @@
   - 15041
   type: 3
 6:
+  data_start: 13000
+  data_stop: 20000
   ii_start:
   - 13000
   - 13827
@@ -518,7 +526,7 @@
   - 18216
   - 19625
   - 20000
-  patient: RID0065
+  patient: ICUDataRedux_0065
   sz_start:
   - 13709
   - 15433
@@ -531,6 +539,8 @@
   - 19763
   type: 4
 7:
+  data_start: 1000
+  data_stop: 38000
   ii_start:
   - 1000
   - 1948
@@ -545,7 +555,7 @@
   - 30430
   - 37253
   - 38000
-  patient: RID0066
+  patient: ICUDataRedux_0066
   sz_start:
   - 1671
   - 5067
@@ -560,6 +570,8 @@
   - 37424
   type: 3
 8:
+  data_start: 45066
+  data_stop: 78041
   ii_start:
   - 45227
   - 47809
@@ -568,7 +580,7 @@
   - 47603
   - 77814
   - 77928
-  patient: RID0067
+  patient: ICUDataRedux_0067
   sz_start:
   - 45066
   - 47603
@@ -581,6 +593,8 @@
   - 78041
   type: 3
 9:
+  data_start: 2000
+  data_stop: 12000
   ii_start:
   - 2000
   - 3444
@@ -593,7 +607,7 @@
   - 3879
   - 4989
   - 12000
-  patient: RID0068
+  patient: ICUDataRedux_0068
   sz_start:
   - 3374
   - 3577
@@ -606,6 +620,8 @@
   - 5005
   type: 2
 10:
+  data_start: 3200
+  data_stop: 6157
   ii_start:
   - 3200
   - 5139
@@ -630,7 +646,7 @@
   - 5846
   - 5940
   - 6145
-  patient: RID0069
+  patient: ICUDataRedux_0069
   sz_start:
   - 5128
   - 5187
@@ -657,10 +673,17 @@
   - 6157
   type: 1
 12:
-  iic_start: 2000
-  iic_stop: 12000
-  patient: RID0071
+  data_start: 2000
+  data_stop: 12000
+  iic_start:
+  - 2000
+  iic_stop:
+  - 12000
+  patient: ICUDataRedux_0071
+  type: -1
 13:
+  data_start: 100
+  data_stop: 5100
   ii_start:
   - 100
   - 990
@@ -689,7 +712,7 @@
   - 3635
   - 3722
   - 5100
-  patient: RID0072
+  patient: ICUDataRedux_0072
   sz_start:
   - 956
   - 2509
@@ -718,6 +741,8 @@
   - 3740
   type: 3
 14:
+  data_start: 10100
+  data_stop: 30100
   ii_start:
   - 10100
   - 10345
@@ -730,7 +755,7 @@
   - 25413
   - 25627
   - 30100
-  patient: RID0073
+  patient: ICUDataRedux_0073
   sz_start:
   - 10271
   - 21145
@@ -743,6 +768,8 @@
   - 25655
   type: 2
 15:
+  data_start: 100
+  data_stop: 10100
   ii_start:
   - 100
   - 267
@@ -769,7 +796,7 @@
   - 4462
   - 4925
   - 10100
-  patient: RID0074
+  patient: ICUDataRedux_0074
   sz_start:
   - 114
   - 307
@@ -796,6 +823,8 @@
   - 5164
   type: 1
 18:
+  data_start: 100
+  data_stop: 16100
   ii_start:
   - 100
   - 4530
@@ -810,7 +839,7 @@
   - 13469
   - 15287
   - 16100
-  patient: RID235_1d807e48
+  patient: ICUDataRedux_0054
   sz_start:
   - 4355
   - 5463
@@ -825,6 +854,8 @@
   - 15409
   type: 3
 22:
+  data_start: 1000
+  data_stop: 11000
   ii_start:
   - 1000
   - 5893
@@ -833,7 +864,7 @@
   - 5607
   - 6130
   - 11000
-  patient: RID244_2aa72934
+  patient: ICUDataRedux_0078
   sz_start:
   - 5607
   - 6130
@@ -842,6 +873,8 @@
   - 8365
   type: 4
 23:
+  data_start: 1658
+  data_stop: 4458
   ii_start:
   - 1763
   - 2127
@@ -862,7 +895,7 @@
   - 3184
   - 3617
   - 4356
-  patient: RID249_9f3b5d22
+  patient: ICUDataRedux_0082
   sz_start:
   - 1658
   - 1942
@@ -887,6 +920,8 @@
   - 4458
   type: 4
 24:
+  data_start: 100
+  data_stop: 10100
   ii_start:
   - 100
   - 2475
@@ -895,7 +930,7 @@
   - 2422
   - 4692
   - 10100
-  patient: RID250_ac5b1126
+  patient: ICUDataRedux_0083
   sz_start:
   - 2422
   - 4692
@@ -904,6 +939,8 @@
   - 4723
   type: 4
 25:
+  data_start: 1000
+  data_stop: 6000
   ii_start:
   - 1000
   - 1193
@@ -912,7 +949,7 @@
   - 1036
   - 2193
   - 6000
-  patient: RID251_702ac93f
+  patient: ICUDataRedux_0084
   sz_start:
   - 1036
   - 2193
@@ -921,6 +958,8 @@
   - 2330
   type: 4
 26:
+  data_start: 79
+  data_stop: 15164
   ii_start:
   - 243
   - 720
@@ -965,7 +1004,7 @@
   - 12037
   - 13467
   - 14747
-  patient: RID252_68561f5b
+  patient: ICUDataRedux_0085
   sz_start:
   - 79
   - 422
@@ -1014,6 +1053,8 @@
   - 15164
   type: 4
 27:
+  data_start: 1941
+  data_stop: 11515
   ii_start:
   - 1997
   - 3205
@@ -1046,7 +1087,7 @@
   - 10835
   - 11300
   - 11462
-  patient: RID253_ae81bb9b
+  patient: ICUDataRedux_0086
   sz_start:
   - 1941
   - 3123
@@ -1083,6 +1124,8 @@
   - 11515
   type: 4
 28:
+  data_start: 2000
+  data_stop: 12000
   ii_start:
   - 2000
   - 2275
@@ -1097,7 +1140,7 @@
   - 4230
   - 8665
   - 12000
-  patient: RID254_a69203f2
+  patient: ICUDataRedux_0087
   sz_start:
   - 2230
   - 2494
@@ -1112,10 +1155,17 @@
   - 8799
   type: 4
 29:
-  iic_start: 2000
-  iic_stop: 12000
-  patient: RID255_1d400f18
+  data_start: 2000
+  data_stop: 12000
+  iic_start:
+  - 2000
+  iic_stop:
+  - 12000
+  patient: ICUDataRedux_0088
+  type: -1
 30:
+  data_start: 30
+  data_stop: 8030
   ii_start:
   - 30
   - 434
@@ -1130,7 +1180,7 @@
   - 4939
   - 7119
   - 8030
-  patient: RID256_a80ca08c
+  patient: ICUDataRedux_0089
   sz_start:
   - 48
   - 1577
@@ -1145,6 +1195,8 @@
   - 7233
   type: 4
 31:
+  data_start: 3000
+  data_stop: 8000
   ii_start:
   - 3000
   - 3250
@@ -1185,7 +1237,7 @@
   - 6607
   - 6723
   - 8000
-  patient: RID257_5e2a16b8
+  patient: ICUDataRedux_0090
   sz_start:
   - 3205
   - 3279
@@ -1226,6 +1278,8 @@
   - 6776
   type: 3
 32:
+  data_start: 400
+  data_stop: 2400
   ii_start:
   - 400
   - 747
@@ -1236,7 +1290,7 @@
   - 980
   - 1825
   - 2400
-  patient: RID258_d6280c8b
+  patient: ICUDataRedux_0091
   sz_start:
   - 468
   - 980
@@ -1247,108 +1301,230 @@
   - 2160
   type: 4
 33:
-  ii_start: 100
-  ii_stop: 10100
+  data_start: 100
+  data_stop: 10100
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT684
+  type: -1
 34:
-  ii_start: 100
-  ii_stop: 10100
+  data_start: 100
+  data_stop: 10100
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT685
+  type: -1
 35:
-  ii_start: 100
-  ii_stop: 10100
+  data_start: 100
+  data_stop: 10100
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT686
+  type: -1
 36:
-  ii_start: 100
-  ii_stop: 10100
+  data_start: 100
+  data_stop: 10100
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT687
+  type: -1
 37:
-  ii_start: 100
-  ii_stop: 10100
+  data_start: 100
+  data_stop: 10100
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT688
-  sz_start: 100
-  sz_stop: 10100
+  sz_start:
+  - 100
+  sz_stop:
+  - 10100
+  type: -1
 38:
-  ii_start: 100
-  ii_stop: 10100
+  data_start: 100
+  data_stop: 10100
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT689
-  sz_start: 100
-  sz_stop: 10100
+  sz_start:
+  - 100
+  sz_stop:
+  - 10100
+  type: -1
 39:
-  ii_start: 100
-  ii_stop: 10100
+  data_start: 100
+  data_stop: 10100
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT690
-  sz_start: 100
-  sz_stop: 10100
+  sz_start:
+  - 100
+  sz_stop:
+  - 10100
+  type: -1
 40:
-  ii_start: 100
-  ii_stop: 10100
+  data_start: 100
+  data_stop: 10100
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT691
-  sz_start: 100
-  sz_stop: 10100
+  sz_start:
+  - 100
+  sz_stop:
+  - 10100
+  type: -1
 41:
-  ii_start: 100
-  ii_stop: 10100
+  data_start: 100
+  data_stop: 10100
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT692
-  sz_start: 100
-  sz_stop: 10100
+  sz_start:
+  - 100
+  sz_stop:
+  - 10100
+  type: -1
 42:
-  ii_start: 100
-  ii_stop: 10100
+  data_start: 100
+  data_stop: 10100
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT694
-  sz_start: 100
-  sz_stop: 10100
+  sz_start:
+  - 100
+  sz_stop:
+  - 10100
+  type: -1
 43:
-  ii_start: 100
-  ii_stop: 10100
+  data_start: 100
+  data_stop: 10100
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT695
-  sz_start: 100
-  sz_stop: 10100
+  sz_start:
+  - 100
+  sz_stop:
+  - 10100
+  type: -1
 44:
-  ii_start: 100
-  ii_stop: 10100
+  data_start: 100
+  data_stop: 10100
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT698
-  sz_start: 100
-  sz_stop: 10100
+  sz_start:
+  - 100
+  sz_stop:
+  - 10100
+  type: -1
 45:
-  ii_start: 100
-  ii_stop: 10100
+  data_start: 100
+  data_stop: 10100
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT700
-  sz_start: 100
-  sz_stop: 10100
+  sz_start:
+  - 100
+  sz_stop:
+  - 10100
+  type: -1
 46:
-  ii_start: 100
-  ii_stop: 10100
+  data_start: 100
+  data_stop: 10100
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT701
-  sz_start: 100
-  sz_stop: 10100
+  sz_start:
+  - 100
+  sz_stop:
+  - 10100
+  type: -1
 47:
-  ii_start: 100
-  ii_stop: 10100
+  data_start: 100
+  data_stop: 10100
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT702
-  sz_start: 100
-  sz_stop: 10100
+  sz_start:
+  - 100
+  sz_stop:
+  - 10100
+  type: -1
 48:
-  ii_start: 100
-  ii_stop: 10100
+  data_start: 100
+  data_stop: 10100
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT705
-  sz_start: 100
-  sz_stop: 10100
+  sz_start:
+  - 100
+  sz_stop:
+  - 10100
+  type: -1
 49:
-  ii_start: 100
-  ii_stop: 10100
+  data_start: 100
+  data_stop: 10100
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT706
-  sz_start: 100
-  sz_stop: 10100
+  sz_start:
+  - 100
+  sz_stop:
+  - 10100
+  type: -1
 50:
-  ii_start: 100
-  ii_stop: 10100
+  data_start: 100
+  data_stop: 10100
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT708
-  sz_start: 100
-  sz_stop: 10100
+  sz_start:
+  - 100
+  sz_stop:
+  - 10100
+  type: -1
 51:
-  ii_start: 3000
-  ii_stop: 13000
+  data_start: 0
+  data_stop: 13000
+  ii_start:
+  - 3000
+  ii_stop:
+  - 13000
   patient: CNT710
   sz_start:
   - 0
@@ -1358,8 +1534,12 @@
   - 0
   type: 3
 52:
-  ii_start: 5000
-  ii_stop: 15000
+  data_start: 0
+  data_stop: 15000
+  ii_start:
+  - 5000
+  ii_stop:
+  - 15000
   patient: CNT711
   sz_start:
   - 0
@@ -1369,8 +1549,12 @@
   - 0
   type: 4
 53:
-  ii_start: 1000
-  ii_stop: 11000
+  data_start: 0
+  data_stop: 11000
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
   patient: CNT713
   sz_start:
   - 0
@@ -1380,8 +1564,12 @@
   - 0
   type: 4
 54:
-  ii_start: 5000
-  ii_stop: 15000
+  data_start: 0
+  data_stop: 15000
+  ii_start:
+  - 5000
+  ii_stop:
+  - 15000
   patient: CNT715
   sz_start:
   - 0
@@ -1391,8 +1579,12 @@
   - 0
   type: 3
 57:
-  ii_start: 1000
-  ii_stop: 11000
+  data_start: 0
+  data_stop: 11000
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
   patient: CNT720
   sz_start:
   - 0
@@ -1402,8 +1594,12 @@
   - 0
   type: 3
 59:
-  ii_start: 3000
-  ii_stop: 13000
+  data_start: 0
+  data_stop: 13000
+  ii_start:
+  - 3000
+  ii_stop:
+  - 13000
   patient: CNT723
   sz_start:
   - 0
@@ -1413,8 +1609,12 @@
   - 0
   type: 4
 60:
-  ii_start: 2000
-  ii_stop: 12000
+  data_start: 0
+  data_stop: 12000
+  ii_start:
+  - 2000
+  ii_stop:
+  - 12000
   patient: CNT724
   sz_start:
   - 0
@@ -1424,8 +1624,12 @@
   - 0
   type: 4
 61:
-  ii_start: 3000
-  ii_stop: 13000
+  data_start: 0
+  data_stop: 13000
+  ii_start:
+  - 3000
+  ii_stop:
+  - 13000
   patient: CNT725
   sz_start:
   - 0
@@ -1435,8 +1639,12 @@
   - 0
   type: 4
 62:
-  ii_start: 3000
-  ii_stop: 13000
+  data_start: 0
+  data_stop: 13000
+  ii_start:
+  - 3000
+  ii_stop:
+  - 13000
   patient: CNT726
   sz_start:
   - 0
@@ -1446,8 +1654,12 @@
   - 0
   type: 4
 63:
-  ii_start: 1000
-  ii_stop: 11000
+  data_start: 0
+  data_stop: 11000
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
   patient: CNT729
   sz_start:
   - 0
@@ -1457,8 +1669,12 @@
   - 0
   type: 4
 64:
-  ii_start: 3000
-  ii_stop: 13000
+  data_start: 0
+  data_stop: 13000
+  ii_start:
+  - 3000
+  ii_stop:
+  - 13000
   patient: CNT730
   sz_start:
   - 0
@@ -1468,8 +1684,12 @@
   - 0
   type: 4
 65:
-  ii_start: 1000
-  ii_stop: 11000
+  data_start: 0
+  data_stop: 11000
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
   patient: CNT731
   sz_start:
   - 0
@@ -1479,8 +1699,12 @@
   - 0
   type: 2
 66:
-  ii_start: 1000
-  ii_stop: 11000
+  data_start: 0
+  data_stop: 11000
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
   patient: CNT732
   sz_start:
   - 0
@@ -1490,8 +1714,12 @@
   - 0
   type: 4
 67:
-  ii_start: 3000
-  ii_stop: 13000
+  data_start: 0
+  data_stop: 13000
+  ii_start:
+  - 3000
+  ii_stop:
+  - 13000
   patient: CNT733
   sz_start:
   - 0
@@ -1501,8 +1729,12 @@
   - 0
   type: 1
 68:
-  ii_start: 1000
-  ii_stop: 11000
+  data_start: 0
+  data_stop: 11000
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
   patient: CNT734
   sz_start:
   - 0
@@ -1512,8 +1744,12 @@
   - 0
   type: 1
 69:
-  ii_start: 2000
-  ii_stop: 12000
+  data_start: 0
+  data_stop: 12000
+  ii_start:
+  - 2000
+  ii_stop:
+  - 12000
   patient: CNT737
   sz_start:
   - 0
@@ -1523,8 +1759,12 @@
   - 0
   type: 1
 70:
-  ii_start: 1000
-  ii_stop: 11000
+  data_start: 0
+  data_stop: 11000
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
   patient: CNT740
   sz_start:
   - 0
@@ -1534,66 +1774,143 @@
   - 0
   type: 2
 71:
-  ii_start: 40000
-  ii_stop: 50000
+  data_start: 40000
+  data_stop: 50000
+  ii_start:
+  - 40000
+  ii_stop:
+  - 50000
   patient: CNT741
+  type: -1
 72:
-  ii_start: 1000
-  ii_stop: 11000
+  data_start: 1000
+  data_stop: 11000
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
   patient: CNT742
+  type: -1
 73:
-  ii_start: 1000
-  ii_stop: 11000
+  data_start: 1000
+  data_stop: 11000
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
   patient: CNT743
+  type: -1
 74:
-  ii_start: 8000
-  ii_stop: 18000
+  data_start: 8000
+  data_stop: 18000
+  ii_start:
+  - 8000
+  ii_stop:
+  - 18000
   patient: CNT748
+  type: -1
 75:
-  ii_start: 3000
-  ii_stop: 13000
+  data_start: 3000
+  data_stop: 13000
+  ii_start:
+  - 3000
+  ii_stop:
+  - 13000
   patient: CNT750
+  type: -1
 76:
-  ii_start: 1000
-  ii_stop: 11000
+  data_start: 1000
+  data_stop: 11000
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
   patient: CNT751
+  type: -1
 77:
-  ii_start: 9000
-  ii_stop: 19000
+  data_start: 9000
+  data_stop: 19000
+  ii_start:
+  - 9000
+  ii_stop:
+  - 19000
   patient: CNT757
+  type: -1
 78:
-  ii_start: 1000
-  ii_stop: 11000
+  data_start: 1000
+  data_stop: 11000
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
   patient: CNT758
+  type: -1
 79:
-  ii_start: 1000
-  ii_stop: 11000
+  data_start: 1000
+  data_stop: 11000
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
   patient: CNT765
+  type: -1
 80:
-  ii_start: 1000
-  ii_stop: 11000
+  data_start: 1000
+  data_stop: 11000
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
   patient: CNT773
+  type: -1
 81:
-  ii_start: 35000
-  ii_stop: 45000
+  data_start: 35000
+  data_stop: 45000
+  ii_start:
+  - 35000
+  ii_stop:
+  - 45000
   patient: CNT774
+  type: -1
 82:
-  ii_start: 7000
-  ii_stop: 17000
+  data_start: 7000
+  data_stop: 17000
+  ii_start:
+  - 7000
+  ii_stop:
+  - 17000
   patient: CNT775
+  type: -1
 83:
-  ii_start: 2000
-  ii_stop: 12000
+  data_start: 2000
+  data_stop: 12000
+  ii_start:
+  - 2000
+  ii_stop:
+  - 12000
   patient: CNT776
+  type: -1
 84:
-  ii_start: 13000
-  ii_stop: 23000
+  data_start: 13000
+  data_stop: 23000
+  ii_start:
+  - 13000
+  ii_stop:
+  - 23000
   patient: CNT778
+  type: -1
 85:
-  ii_start: 6000
-  ii_stop: 16000
+  data_start: 6000
+  data_stop: 16000
+  ii_start:
+  - 6000
+  ii_stop:
+  - 16000
   patient: CNT782
+  type: -1
 92:
+  data_start: 25000
+  data_stop: 30000
   ii_start:
   - 25000
   - 26019
@@ -1601,9 +1918,14 @@
   - 25923
   - 30000
   patient: ICUDataRedux_0003
-  sz_start: 25923
-  sz_stop: 26019
+  sz_start:
+  - 25923
+  sz_stop:
+  - 26019
+  type: -1
 93:
+  data_start: 20000
+  data_stop: 30000
   ii_start:
   - 20000
   - 23136
@@ -1611,9 +1933,14 @@
   - 23125
   - 30000
   patient: ICUDataRedux_0004
-  sz_start: 23125
-  sz_stop: 23136
+  sz_start:
+  - 23125
+  sz_stop:
+  - 23136
+  type: -1
 94:
+  data_start: 20600
+  data_stop: 25600
   ii_start:
   - 20600
   - 25389
@@ -1621,65 +1948,140 @@
   - 24807
   - 25600
   patient: ICUDataRedux_0006
-  sz_start: 24807
-  sz_stop: 25389
+  sz_start:
+  - 24807
+  sz_stop:
+  - 25389
+  type: -1
 95:
-  iic_start: 3000
-  iic_stop: 13000
+  data_start: 3000
+  data_stop: 13000
+  iic_start:
+  - 3000
+  iic_stop:
+  - 13000
   patient: ICUDataRedux_0007
+  type: -1
 96:
-  iic_start: 2000
-  iic_stop: 12000
+  data_start: 2000
+  data_stop: 12000
+  iic_start:
+  - 2000
+  iic_stop:
+  - 12000
   patient: ICUDataRedux_0008
+  type: -1
 97:
-  iic_start: 4000
-  iic_stop: 14000
+  data_start: 4000
+  data_stop: 14000
+  iic_start:
+  - 4000
+  iic_stop:
+  - 14000
   patient: ICUDataRedux_0009
+  type: -1
 98:
-  iic_start: 12000
-  iic_stop: 22000
+  data_start: 12000
+  data_stop: 22000
+  iic_start:
+  - 12000
+  iic_stop:
+  - 22000
   patient: ICUDataRedux_0010
+  type: -1
 99:
-  iic_start: 4000
-  iic_stop: 14000
+  data_start: 4000
+  data_stop: 14000
+  iic_start:
+  - 4000
+  iic_stop:
+  - 14000
   patient: ICUDataRedux_0011
+  type: -1
 100:
-  iic_start: 2000
-  iic_stop: 12000
+  data_start: 2000
+  data_stop: 12000
+  iic_start:
+  - 2000
+  iic_stop:
+  - 12000
   patient: ICUDataRedux_0012
+  type: -1
 101:
-  iic_start: 1000
-  iic_stop: 11000
+  data_start: 1000
+  data_stop: 11000
+  iic_start:
+  - 1000
+  iic_stop:
+  - 11000
   patient: ICUDataRedux_0013
+  type: -1
 102:
-  iic_start: 3000
-  iic_stop: 13000
+  data_start: 3000
+  data_stop: 13000
+  iic_start:
+  - 3000
+  iic_stop:
+  - 13000
   patient: ICUDataRedux_0014
+  type: -1
 103:
-  iic_start: 2000
-  iic_stop: 12000
+  data_start: 2000
+  data_stop: 12000
+  iic_start:
+  - 2000
+  iic_stop:
+  - 12000
   patient: ICUDataRedux_0015
+  type: -1
 104:
-  iic_start: 2000
-  iic_stop: 12000
+  data_start: 2000
+  data_stop: 12000
+  iic_start:
+  - 2000
+  iic_stop:
+  - 12000
   patient: ICUDataRedux_0016
+  type: -1
 105:
-  iic_start: 9000
-  iic_stop: 19000
+  data_start: 9000
+  data_stop: 19000
+  iic_start:
+  - 9000
+  iic_stop:
+  - 19000
   patient: ICUDataRedux_0017
+  type: -1
 106:
-  iic_start: 2000
-  iic_stop: 12000
+  data_start: 2000
+  data_stop: 12000
+  iic_start:
+  - 2000
+  iic_stop:
+  - 12000
   patient: ICUDataRedux_0018
+  type: -1
 107:
-  iic_start: 1000
-  iic_stop: 11000
+  data_start: 1000
+  data_stop: 11000
+  iic_start:
+  - 1000
+  iic_stop:
+  - 11000
   patient: ICUDataRedux_0019
+  type: -1
 108:
-  iic_start: 13000
-  iic_stop: 23000
+  data_start: 13000
+  data_stop: 23000
+  iic_start:
+  - 13000
+  iic_stop:
+  - 23000
   patient: ICUDataRedux_0020
+  type: -1
 110:
+  data_start: 819
+  data_stop: 2600
   ii_start:
   - 819
   - 864
@@ -1731,3 +2133,361 @@
   - 1296
   - 1366
   - 1441
+  type: -1
+112:
+  data_start: 75000
+  data_stop: 85000
+  ii_start:
+  - 75000
+  - 82538
+  - 84795
+  ii_stop:
+  - 82439
+  - 84687
+  - 85000
+  patient: CNT913
+  sz_start:
+  - 82439
+  - 84687
+  sz_stop:
+  - 82538
+  - 84795
+  type: -1
+113:
+  data_start: 20000
+  data_stop: 40000
+  ii_start:
+  - 20000
+  - 33151
+  ii_stop:
+  - 33019
+  - 40000
+  patient: CNT929
+  sz_start:
+  - 33019
+  sz_stop:
+  - 33151
+  type: -1
+114:
+  data_start: 25000
+  data_stop: 45000
+  ii_start:
+  - 25000
+  - 40022
+  ii_stop:
+  - 39984
+  - 45000
+  patient: CNT928
+  sz_start:
+  - 39984
+  sz_stop:
+  - 40022
+  type: -1
+115:
+  data_start: 65000
+  data_stop: 75000
+  ii_start:
+  - 65000
+  - 72002
+  ii_stop:
+  - 71971
+  - 75000
+  patient: CNT925
+  sz_start:
+  - 71971
+  sz_stop:
+  - 72002
+  type: -1
+116:
+  data_start: 10000
+  data_stop: 20000
+  ii_start:
+  - 10000
+  - 15709
+  ii_stop:
+  - 14800
+  - 20000
+  patient: ICUDataRedux_0027
+  sz_start:
+  - 14800
+  sz_stop:
+  - 15709
+  type: -1
+117:
+  data_start: 71000
+  data_stop: 81000
+  ii_start:
+  - 71000
+  - 75805
+  - 78447
+  - 80508
+  ii_stop:
+  - 75383
+  - 78293
+  - 80154
+  - 81000
+  patient: ICUDataRedux_0028
+  sz_start:
+  - 75383
+  - 78293
+  - 80154
+  sz_stop:
+  - 75805
+  - 78447
+  - 80508
+  type: -1
+118:
+  data_start: 800
+  data_stop: 5800
+  ii_start:
+  - 800
+  - 834
+  - 1187
+  - 1447
+  - 3158
+  - 3719
+  - 5716
+  ii_stop:
+  - 807
+  - 1162
+  - 1383
+  - 3131
+  - 3585
+  - 5618
+  - 5800
+  patient: ICUDataRedux_0033
+  sz_start:
+  - 807
+  - 1162
+  - 1383
+  - 3131
+  - 3585
+  - 5618
+  sz_stop:
+  - 834
+  - 1187
+  - 1447
+  - 3158
+  - 3719
+  - 5716
+  type: -1
+119:
+  data_start: 200
+  data_stop: 2200
+  ii_start:
+  - 200
+  - 435
+  ii_stop:
+  - 242
+  - 2200
+  patient: ICUDataRedux_0036
+  sz_start:
+  - 242
+  sz_stop:
+  - 435
+  type: -1
+120:
+  data_start: 0
+  data_stop: 7000
+  ii_start:
+  - 0
+  - 0
+  ii_stop:
+  - 0
+  - 0
+  patient: ICUDataRedux_0040
+  sz_start:
+  - 2000
+  sz_stop:
+  - 7000
+  type: -1
+121:
+  data_start: 3000
+  data_stop: 16000
+  ii_start:
+  - 3000
+  - 3331
+  - 15128
+  ii_stop:
+  - 3251
+  - 15103
+  - 16000
+  patient: ICUDataRedux_0042
+  sz_start:
+  - 3251
+  - 15103
+  sz_stop:
+  - 3331
+  - 15128
+  type: -1
+122:
+  data_start: 5000
+  data_stop: 12000
+  ii_start:
+  - 5000
+  - 9773
+  ii_stop:
+  - 9678
+  - 12000
+  patient: ICUDataRedux_0045
+  sz_start:
+  - 9678
+  sz_stop:
+  - 9773
+  type: -1
+123:
+  data_start: 100
+  data_stop: 10100
+  ii_start:
+  - 100
+  - 3583
+  - 3660
+  - 7164
+  - 9501
+  - 9574
+  - 9625
+  - 9761
+  - 9854
+  - 9976
+  ii_stop:
+  - 3501
+  - 3607
+  - 7119
+  - 9485
+  - 9560
+  - 9595
+  - 9732
+  - 9821
+  - 9928
+  - 10100
+  patient: ICUDataRedux_0049
+  sz_start:
+  - 3501
+  - 3607
+  - 7119
+  - 9485
+  - 9560
+  - 9595
+  - 9732
+  - 9821
+  - 9928
+  sz_stop:
+  - 3583
+  - 3660
+  - 7164
+  - 9501
+  - 9574
+  - 9625
+  - 9761
+  - 9854
+  - 9976
+  type: -1
+124:
+  data_start: 3000
+  data_stop: 8000
+  ii_start:
+  - 3000
+  - 3177
+  - 5384
+  ii_stop:
+  - 3119
+  - 5316
+  - 8000
+  patient: ICUDataRedux_0050
+  sz_start:
+  - 3119
+  - 5316
+  sz_stop:
+  - 3177
+  - 5384
+  type: -1
+125:
+  data_start: 1000
+  data_stop: 11000
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
+  patient: ICUDataRedux_0023
+  type: -1
+126:
+  data_start: 1000
+  data_stop: 11000
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
+  patient: ICUDataRedux_0026
+  type: -1
+127:
+  data_start: 1000
+  data_stop: 11000
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
+  patient: ICUDataRedux_0029
+  type: -1
+128:
+  data_start: 1000
+  data_stop: 11000
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
+  patient: ICUDataRedux_0030
+  type: -1
+129:
+  data_start: 1000
+  data_stop: 11000
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
+  patient: ICUDataRedux_0034
+  type: -1
+130:
+  data_start: 1000
+  data_stop: 11000
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
+  patient: ICUDataRedux_0035
+  type: -1
+131:
+  data_start: 1000
+  data_stop: 11000
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
+  patient: ICUDataRedux_0043
+  type: -1
+132:
+  data_start: 1000
+  data_stop: 11000
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
+  patient: ICUDataRedux_0044
+  type: -1
+133:
+  data_start: 1000
+  data_stop: 11000
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
+  patient: ICUDataRedux_0047
+  type: -1
+134:
+  data_start: 1000
+  data_stop: 11000
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
+  patient: ICUDataRedux_0048
+  type: -1

@@ -23,17 +23,35 @@ import h5py
 import mat4py # even more convenient that scipy.io.loadmat for v5
 import numpy as np
 
+# %% [markdown]
+# jbernabei has stored the annotations as matlab v5 and v7.3 (hdf5) files
+# - each file stores information under the following variables. 
+#   - data_start : when present 1x1 float -- likely integer time in second
+#   - data_stop : when present 1x1 float -- integer time in second
+#   - patient : uint16 or unicode string
+#   - 'ii_start' : matrix 1xn float if present : these are 
+#   - 'ii_stop' : matrix 1xn float if present
+#   - 'iic_start' : matrix 1xn float if present 
+#   - 'iic_stop': matrix 1xn float if present
+#   - 'sz_start' : matrix 1xn float if present
+#   - 'sz_stop' : matrix 1xn float if present
+#   - type :  1.0 | 2.0 | 3.0 |4.0   or not present
+# It looks like 
 # %%
-#asbytes_latin1 = lambda s: s.encode('latin1') # may want utf-8
-#asstr_latin1 = lambda b: b.decode('latin1')
+LIST_TYPE_KEYS = ['ii_start', 'ii_stop', 'iic_start','iic_stop', 'sz_start','sz_stop']
+SCALAR_INT_TYPE_KEYS = ['data_stop', 'data_start', 'type']
 
-asbytes_latin1 = lambda s: s.encode('utf-8') # may want utf-8
-asstr_latin1 = lambda b: b.decode('utf-8')
+# %%
+asbytes_latin1 = lambda s: s.encode('latin1') # may want utf-8
+asstr_latin1 = lambda b: b.decode('latin1')
+
+asbytes_utf8 = lambda s: s.encode('utf-8') # may want utf-8
+asstr_utf8 = lambda b: b.decode('utf-8')
 
 def ndarray_uint16_to_string(arr):
-    arr_uint = arr.astype('uint8') # truncate off 2nd byte
+    arr_uint = arr.astype('uint8') # truncate off 2nd byte np.unicode_ type instead?
     arr_bytes = arr_uint.tobytes()
-    return asstr_latin1(arr_bytes)
+    return asstr_utf8(arr_bytes)
 
 
 
@@ -113,13 +131,21 @@ for kk in ann:
             data[ii] = vv.tolist()
 
 
-# %%
+# %% make it so
+# the big type clean up 
 for kk, data in ann.items():
     for ii,vv in data.items():
-        if type(vv) == list:
+        if type(vv) == list: # could replace with if ii in LIST_TYPE_KEYS?
             data[ii] = [int(val) for val in vv]
         if type(vv) == float:
-            data[ii] = [int(vv)]  # make it so that they are always a list
+            if ii in LIST_TYPE_KEYS:
+                data[ii] = [int(vv)]  # make it so that they are always a list
+            if ii in SCALAR_INT_TYPE_KEYS:
+                data[ii] = int(vv)
+                
+        if type(vv) == int:
+            if ii in LIST_TYPE_KEYS:
+                data[ii] = [vv] # make it so 
 
 
 # %%
@@ -156,7 +182,7 @@ def flatten_list(*l):
 for kk, an in ann.items():
     if 'type' not in an:
         print(f"{kk=}, {an=} does not have a type")
-        continue 
+        an['type'] = -1
     # check
     present_keys = [ss for ss in ['iic_start','iic_stop','ii_start','ii_stop',
                         'sz_start', 'sz_stop'] if ss in an]
@@ -167,23 +193,31 @@ for kk, an in ann.items():
     allarr = np.array(check_these)
     if an['type'] == 1: # seizure file
         if 'data_start' not in an:
-            an['data_start'] = np.min(allarr)
+            an['data_start'] = int(np.min(allarr))
         if 'data_stop' not in an:
-            an['data_stop'] = np.max(allarr)
+            an['data_stop'] = int(np.max(allarr))
     elif an['type'] == 2: # seizure free
         if 'data_start' not in an:
             #an['data_start'] = np.min(min(an['ii_start']), min(an['ii_stop']) )
-            an['data_start'] = np.min(allarr )
+            an['data_start'] = int(np.min(allarr ))
         if 'data_stop' not in an:
             #an['data_stop'] = np.max([ max(an['ii_start']), max(an['ii_stop'])])
-            an['data_stop'] = np.max(allarr)
+            an['data_stop'] = int(np.max(allarr))
     elif an['type'] == 3: # interictal continuum
         if 'data_start' not in an:
             #an['data_start'] = np.min((min(an[ss]) for ss in check_these) )
-            an['data_start'] = np.min(allarr)
+            an['data_start'] = int(np.min(allarr))
         if 'data_stop' not in an:
             #an['data_stop'] = np.max(max(an[ss]) for ss in check_these)
-            an['data_stop'] = np.max(allarr)
+            an['data_stop'] = int(np.max(allarr))
+    else:
+        if 'data_start' not in an:
+            #an['data_start'] = np.min((min(an[ss]) for ss in check_these) )
+            an['data_start'] = int(np.min(allarr))
+        if 'data_stop' not in an:
+            #an['data_stop'] = np.max(max(an[ss]) for ss in check_these)
+            an['data_stop'] = int(np.max(allarr))
+
 
 # %%
 # little test
@@ -192,13 +226,19 @@ tst = {'a': [1,3,5],
 check_this = [ss for ss in ['a','b','c'] if ss in tst]
 check_this
 # %%
+# make a sorted version
+
+ann_keys = list(ann.keys())
+ann_keys.sort()
+ann_sorted = {kk:ann[kk] for kk in ann_keys}
+
+open('annotations_repr.py','w+').write(f"annotations = {repr(ann_sorted)}") # should format this with black
+
+# %%
+yaml.safe_dump(ann_sorted, open('annotations.yaml','w+'))
 
 
 # %%
-yaml.safe_dump(ann, open('annotations.yaml','w+'))
-
-
-# %%
-json.dump(ann, open('annotations.json', 'w+'), indent='\t')
+json.dump(ann_sorted, open('annotations.json', 'w+'), indent=2)
 
 # %%
