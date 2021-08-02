@@ -1,0 +1,98 @@
+iEEGorgID,File,Diagnosis,Age,Sex,SzNo,DectectionNo,MeanSeizureLength,RecordLength,ArtifactNo,SeizureDescription
+ICUDataRedux_0060,1,AMS,87,F,2,2,100.5,30000,3,"L temporal seizure"
+ICUDataRedux_0061,2,SZ,60,F,49,49,110.18,31855,266,"L temporal seizure"
+ICUDataRedux_0062,3,SZ,64,M,22,7,22.136,23500,1,"R and L hemispheric seizure"
+ICUDataRedux_0063,4,SZ,59,F,5,5,20.8,30170,198,"L temporal seizure"
+ICUDataRedux_0064,5,SZ,45,F,39,35,74.179,14995,2,"R posterior quadrant seizure"
+ICUDataRedux_0065,6,ICH,83,M,4,4,139,7000,71,"L centrotemporal seizure"
+ICUDataRedux_0066,7,SZ,43,F,5,5,224.2,37000,30,"L temporal seizure"
+ICUDataRedux_0067,8,ICH,70,F,4,4,139,32975,15,"R frontal seizure"
+ICUDataRedux_0068,9,ICH,77,M,4,3,29.75,10000,1,"R frontal seizure"
+ICUDataRedux_0069,10,AMS,41,F,11,11,12.909,2955,0,"L temporal posterior seizure"
+ICUDataRedux_0072,13,SZ,33,F,12,12,21.583,5000,1,"Bilat. Parasagittal status epilepticus"
+ICUDataRedux_0073,14,ICH,88,M,4,2,68,20000,204,"L frontal focal seizure"
+ICUDataRedux_0074,15,SZ,63,M,11,11,130.55,10000,0,"Frequent subclinical seizures"
+ICUDataRedux_0054,18,ICH,81,F,5,2,104.6,16000,357,"R frontal seizure"
+ICUDataRedux_0078,22,Neoplasm,72,F,2,2,1260.5,10000,0,"R centroparietal seizure"
+ICUDataRedux_0082,23,SZ,54,M,10,9,134.7,2800,1,"R hemisphere status epilepticus"
+ICUDataRedux_0083,24,Neoplasm,81,M,2,2,42,10000,145,"L temporal seizure"
+ICUDataRedux_0084,25,ICH,57,F,2,2,147,5000,0,"R posterior quadrant seizure"
+ICUDataRedux_0085,26,Sepsis,52,M,22,12,266,15085,0,"L temporal NCSE"
+ICUDataRedux_0086,27,SZ,28,F,16,16,67.125,9570,16,"R frontotemporal onset, CSE"
+ICUDataRedux_0087,28,Misc/UC,52,M,5,5,95.6,10000,0,"R central seizure"
+ICUDataRedux_0089,30,Sepsis,57,M,5,5,265.6,8000,32,"Diffuse seizure, poorly localized at onset"
+ICUDataRedux_0090,31,SZ,53,M,18,13,94.222,5000,0,"L hemisphere seizure"
+ICUDataRedux_0091,32,Misc/UC,49,F,3,2,315.33,2000,0,"R frontal seizure"
+ICUDataRedux_0003,92,Neoplasm,71,M,1,1,96,5000,0,"L posterior quadrant seizure"
+ICUDataRedux_0004,93,Neoplasm,63,M,1,0,11,10000,0,"L focal seizure"
+ICUDataRedux_0006,94,Misc/UC,76,F,1,1,582,5000,0,"L frontal focal seizure"
+CNT684,33,Anoxic,31,F,0,n/a,n/a,10000,0,n/a
+CNT685,34,Misc/UC,22,M,0,n/a,n/a,10000,0,n/a
+CNT686,35,Anoxic,21,M,0,n/a,n/a,10000,0,n/a
+CNT687,36,Toxometabolic,25,F,0,n/a,n/a,10000,0,n/a
+CNT688,37,Toxometabolic,74,M,0,n/a,n/a,10000,0,n/a
+CNT689,38,Toxometabolic,71,M,0,n/a,n/a,10000,1726,n/a
+CNT690,39,ICH,69,M,0,n/a,n/a,10000,0,n/a
+CNT691,40,SZ,84,M,0,n/a,n/a,10000,0,n/a
+CNT692,41,Anoxic,24,F,0,n/a,n/a,10000,17,n/a
+CNT694,42,Misc/UC,64,F,0,n/a,n/a,10000,0,n/a
+CNT695,43,Toxometabolic,61,M,0,n/a,n/a,10000,0,n/a
+CNT698,44,AMS,60,F,0,n/a,n/a,10000,31,n/a
+CNT700,45,SZ,64,M,0,n/a,n/a,10000,198,n/a
+CNT701,46,Toxometabolic,65,M,0,n/a,n/a,10000,0,n/a
+CNT702,47,ICH,67,F,0,n/a,n/a,10000,9,n/a
+CNT705,48,Misc/UC,60,F,0,n/a,n/a,10000,0,n/a
+CNT706,49,AMS,67,F,0,n/a,n/a,10000,17,n/a
+CNT708,50,ICH,63,F,0,n/a,n/a,10000,335,n/a
+CNT710,51,SZ,45,F,0,n/a,n/a,10000,0,n/a
+CNT711,52,Neoplasm,53,F,0,n/a,n/a,10000,0,n/a
+CNT713,53,Misc/UC,75,F,0,n/a,n/a,10000,0,n/a
+CNT715,54,SZ,55,M,0,n/a,n/a,10000,7,n/a
+CNT720,57,SZ,22,F,0,n/a,n/a,10000,4,n/a
+CNT723,59,Toxometabolic,22,F,0,n/a,n/a,10000,0,n/a
+CNT724,60,Misc/UC,86,F,0,n/a,n/a,10000,0,n/a
+CNT725,61,Neoplasm,67,M,0,n/a,n/a,10000,0,n/a
+CNT726,62,Misc/UC,19,M,0,n/a,n/a,10000,111,n/a
+CNT729,63,Misc/UC,61,M,0,n/a,n/a,10000,0,n/a
+CNT730,64,Misc/UC,45,M,0,n/a,n/a,10000,0,n/a
+CNT731,65,ICH,75,F,0,n/a,n/a,10000,0,n/a
+CNT732,66,Misc/UC,72,M,0,n/a,n/a,10000,0,n/a
+CNT733,67,AMS,53,F,0,n/a,n/a,10000,2,n/a
+CNT734,68,AMS,52,M,0,n/a,n/a,10000,0,n/a
+CNT737,69,AMS,68,M,0,n/a,n/a,10000,1,n/a
+CNT740,70,ICH,38,F,0,n/a,n/a,10000,0,n/a
+CNT741,71,ICH,60,F,0,n/a,n/a,10000,14,n/a
+CNT742,72,ICH,54,F,0,n/a,n/a,10000,0,n/a
+CNT743,73,Neoplasm,64,F,0,n/a,n/a,10000,0,n/a
+CNT748,74,Anoxic,44,F,0,n/a,n/a,10000,0,n/a
+CNT750,75,ICH,53,F,0,n/a,n/a,10000,0,n/a
+CNT751,76,ICH,62,F,0,n/a,n/a,10000,0,n/a
+CNT757,77,AMS,74,M,0,n/a,n/a,10000,3,n/a
+CNT758,78,Toxometabolic,20,M,0,n/a,n/a,10000,157,n/a
+CNT765,79,ICH,81,M,0,n/a,n/a,10000,0,n/a
+CNT773,80,ICH,81,F,0,n/a,n/a,10000,0,n/a
+CNT774,81,Toxometabolic,44,F,0,n/a,n/a,10000,1,n/a
+CNT775,82,Toxometabolic,67,F,0,n/a,n/a,10000,0,n/a
+CNT776,83,Misc/UC,60,M,0,n/a,n/a,10000,0,n/a
+CNT778,84,ICH,66,M,0,n/a,n/a,10000,0,n/a
+CNT782,85,AMS,47,M,0,n/a,n/a,10000,0,n/a
+CNT929,113,SZ,58,F,1,1,132,20000,42,"R frontocentral focal seizure"
+ICUDataRedux_0027,116,AMS,74,F,1,1,909,10000,0,"L focal to bilateral tonic clonic seizure"
+ICUDataRedux_0028,117,AMS,68,M,3,3,310,10000,0,"R temporal focal seizure"
+ICUDataRedux_0033,118,AMS,79,M,6,3,62.5,5000,0,"Left focal seizures, focal status epilepticus"
+ICUDataRedux_0036,119,SZ,86,F,1,1,193,2000,0,"Left posterior quadrant focal seizure"
+ICUDataRedux_0040,120,SZ,74,F,1,1,5000,5000,0,"Frequent generalized seizures, NCSE"
+ICUDataRedux_0042,121,Misc/UC,19,M,2,2,52.5,13000,0,"L frontotemporal focal seizures"
+ICUDataRedux_0045,122,SZ,60,M,1,1,95,7000,0,"L frontal focal seizure"
+ICUDataRedux_0049,123,ICH,16,M,9,0,38.889,10000,0,"L occipital focal seizures, focal NCSE"
+ICUDataRedux_0050,124,SZ,21,F,2,2,63,5000,0,"R and L temporal focal seizures"
+ICUDataRedux_0023,125,Sepsis,51,F,0,n/a,n/a,10000,163,n/a
+ICUDataRedux_0026,126,ICH,74,F,0,n/a,n/a,10000,0,n/a
+ICUDataRedux_0029,127,Anoxic,73,M,0,n/a,n/a,10000,8,n/a
+ICUDataRedux_0030,128,ICH,43,M,0,n/a,n/a,10000,11,n/a
+ICUDataRedux_0034,129,SZ,49,F,0,n/a,n/a,10000,40,n/a
+ICUDataRedux_0035,130,AMS,30,M,0,n/a,n/a,10000,0,n/a
+ICUDataRedux_0043,131,SZ,38,F,0,n/a,n/a,10000,0,n/a
+ICUDataRedux_0044,132,Anoxic,64,M,0,n/a,n/a,10000,0,n/a
+ICUDataRedux_0047,133,AMS,58,F,0,n/a,n/a,10000,46,n/a
+ICUDataRedux_0048,134,Sepsis,60,F,0,n/a,n/a,10000,0,n/a
