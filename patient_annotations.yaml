@@ -2,6 +2,7 @@
   data_start: 24000
   data_stop: 54000
   diagnosis: AMS
+  file_num: 1
   ii_start:
   - 24000
   - 24846
@@ -10,8 +11,9 @@
   - 24742
   - 51771
   - 54000
-  patient: RID0060
-  portal_id: RID0060
+  patient: ICUDataRedux_0060
+  portal_id: ICUDataRedux_0060
+  pt_type: 1
   sz_presence: 1
   sz_start:
   - 24742
@@ -19,11 +21,11 @@
   sz_stop:
   - 24846
   - 51868
-  type: 4
 2:
   data_start: 1968
-  data_stop: 31968
+  data_stop: 33825
   diagnosis: SZ
+  file_num: 2
   ii_start:
   - 2055
   - 6120
@@ -122,8 +124,9 @@
   - 32666
   - 33599
   - 33745
-  patient: RID0061
-  portal_id: RID0061
+  patient: ICUDataRedux_0061
+  portal_id: ICUDataRedux_0061
+  pt_type: 1
   sz_presence: 1
   sz_start:
   - 1968
@@ -225,9 +228,11 @@
   - 32741
   - 33720
   - 33825
-  type: 3
 3:
+  data_start: 500
+  data_stop: 24000
   diagnosis: SZ
+  file_num: 3
   ii_start:
   - 500
   - 878
@@ -276,8 +281,9 @@
   - 21375
   - 21623
   - 24000
-  patient: RID0062
-  portal_id: RID0062
+  patient: ICUDataRedux_0062
+  portal_id: ICUDataRedux_0062
+  pt_type: 1
   sz_presence: 1
   sz_start:
   - 860
@@ -325,9 +331,11 @@
   - 21125
   - 21415
   - 21655
-  type: 3
 4:
+  data_start: 1500
+  data_stop: 31672
   diagnosis: SZ
+  file_num: 4
   ii_start:
   - 1500
   - 1932
@@ -340,8 +348,9 @@
   - 4740
   - 8226
   - 11500
-  patient: RID0063
-  portal_id: RID0063
+  patient: ICUDataRedux_0063
+  portal_id: ICUDataRedux_0063
+  pt_type: 1
   sz_presence: 1
   sz_start:
   - 1912
@@ -355,9 +364,11 @@
   - 4753
   - 8245
   - 31672
-  type: 3
 5:
+  data_start: 43
+  data_stop: 15041
   diagnosis: SZ
+  file_num: 5
   ii_start:
   - 105
   - 363
@@ -436,8 +447,9 @@
   - 14146
   - 14560
   - 14978
-  patient: RID0064
-  portal_id: RID0064
+  patient: ICUDataRedux_0064
+  portal_id: ICUDataRedux_0064
+  pt_type: 1
   sz_presence: 1
   sz_start:
   - 43
@@ -519,9 +531,11 @@
   - 14202
   - 14623
   - 15041
-  type: 3
 6:
-  diagnosis: misc/unknown
+  data_start: 13000
+  data_stop: 20000
+  diagnosis: ICH
+  file_num: 6
   ii_start:
   - 13000
   - 13827
@@ -534,8 +548,9 @@
   - 18216
   - 19625
   - 20000
-  patient: RID0065
-  portal_id: RID0065
+  patient: ICUDataRedux_0065
+  portal_id: ICUDataRedux_0065
+  pt_type: 1
   sz_presence: 1
   sz_start:
   - 13709
@@ -547,9 +562,11 @@
   - 15581
   - 18368
   - 19763
-  type: 4
 7:
+  data_start: 1000
+  data_stop: 38000
   diagnosis: SZ
+  file_num: 7
   ii_start:
   - 1000
   - 1948
@@ -564,8 +581,9 @@
   - 30430
   - 37253
   - 38000
-  patient: RID0066
-  portal_id: RID0066
+  patient: ICUDataRedux_0066
+  portal_id: ICUDataRedux_0066
+  pt_type: 1
   sz_presence: 1
   sz_start:
   - 1671
@@ -579,9 +597,11 @@
   - 18542
   - 30618
   - 37424
-  type: 3
 8:
-  diagnosis: SDH
+  data_start: 45066
+  data_stop: 78041
+  diagnosis: ICH
+  file_num: 8
   ii_start:
   - 45227
   - 47809
@@ -590,8 +610,9 @@
   - 47603
   - 77814
   - 77928
-  patient: RID0067
-  portal_id: RID0067
+  patient: ICUDataRedux_0067
+  portal_id: ICUDataRedux_0067
+  pt_type: 1
   sz_presence: 1
   sz_start:
   - 45066
@@ -603,9 +624,11 @@
   - 47809
   - 77890
   - 78041
-  type: 3
 9:
-  diagnosis: SDH
+  data_start: 2000
+  data_stop: 12000
+  diagnosis: ICH
+  file_num: 9
   ii_start:
   - 2000
   - 3444
@@ -618,8 +641,9 @@
   - 3879
   - 4989
   - 12000
-  patient: RID0068
-  portal_id: RID0068
+  patient: ICUDataRedux_0068
+  portal_id: ICUDataRedux_0068
+  pt_type: 1
   sz_presence: 1
   sz_start:
   - 3374
@@ -631,9 +655,11 @@
   - 3592
   - 3897
   - 5005
-  type: 2
 10:
+  data_start: 3200
+  data_stop: 6157
   diagnosis: AMS
+  file_num: 10
   ii_start:
   - 3200
   - 5139
@@ -658,8 +684,9 @@
   - 5846
   - 5940
   - 6145
-  patient: RID0069
-  portal_id: RID0069
+  patient: ICUDataRedux_0069
+  portal_id: ICUDataRedux_0069
+  pt_type: 1
   sz_presence: 1
   sz_start:
   - 5128
@@ -685,13 +712,11 @@
   - 5862
   - 5949
   - 6157
-  type: 1
-12:
-  iic_start: 2000
-  iic_stop: 12000
-  patient: RID0071
 13:
+  data_start: 100
+  data_stop: 5100
   diagnosis: SZ
+  file_num: 13
   ii_start:
   - 100
   - 990
@@ -720,8 +745,9 @@
   - 3635
   - 3722
   - 5100
-  patient: RID0072
-  portal_id: RID0072
+  patient: ICUDataRedux_0072
+  portal_id: ICUDataRedux_0072
+  pt_type: 1
   sz_presence: 1
   sz_start:
   - 956
@@ -749,9 +775,11 @@
   - 3592
   - 3659
   - 3740
-  type: 3
 14:
+  data_start: 10100
+  data_stop: 30100
   diagnosis: ICH
+  file_num: 14
   ii_start:
   - 10100
   - 10345
@@ -764,8 +792,9 @@
   - 25413
   - 25627
   - 30100
-  patient: RID0073
-  portal_id: RID0073
+  patient: ICUDataRedux_0073
+  portal_id: ICUDataRedux_0073
+  pt_type: 1
   sz_presence: 1
   sz_start:
   - 10271
@@ -777,9 +806,11 @@
   - 21237
   - 25491
   - 25655
-  type: 2
 15:
+  data_start: 100
+  data_stop: 10100
   diagnosis: SZ
+  file_num: 15
   ii_start:
   - 100
   - 267
@@ -806,8 +837,9 @@
   - 4462
   - 4925
   - 10100
-  patient: RID0074
-  portal_id: RID0074
+  patient: ICUDataRedux_0074
+  portal_id: ICUDataRedux_0074
+  pt_type: 1
   sz_presence: 1
   sz_start:
   - 114
@@ -833,9 +865,11 @@
   - 3253
   - 4671
   - 5164
-  type: 1
 18:
+  data_start: 100
+  data_stop: 16100
   diagnosis: ICH
+  file_num: 18
   ii_start:
   - 100
   - 4530
@@ -850,8 +884,9 @@
   - 13469
   - 15287
   - 16100
-  patient: RID235_1d807e48
-  portal_id: RID235_1d807e48
+  patient: ICUDataRedux_0054
+  portal_id: ICUDataRedux_0054
+  pt_type: 1
   sz_presence: 1
   sz_start:
   - 4355
@@ -865,9 +900,11 @@
   - 7537
   - 13498
   - 15409
-  type: 3
 22:
+  data_start: 1000
+  data_stop: 11000
   diagnosis: Neoplasm
+  file_num: 22
   ii_start:
   - 1000
   - 5893
@@ -876,8 +913,9 @@
   - 5607
   - 6130
   - 11000
-  patient: RID244_2aa72934
-  portal_id: RID244_2aa72934
+  patient: ICUDataRedux_0078
+  portal_id: ICUDataRedux_0078
+  pt_type: 1
   sz_presence: 1
   sz_start:
   - 5607
@@ -885,9 +923,11 @@
   sz_stop:
   - 5893
   - 8365
-  type: 4
 23:
+  data_start: 1658
+  data_stop: 4458
   diagnosis: SZ
+  file_num: 23
   ii_start:
   - 1763
   - 2127
@@ -908,8 +948,9 @@
   - 3184
   - 3617
   - 4356
-  patient: RID249_9f3b5d22
-  portal_id: RID249_9f3b5d22
+  patient: ICUDataRedux_0082
+  portal_id: ICUDataRedux_0082
+  pt_type: 1
   sz_presence: 1
   sz_start:
   - 1658
@@ -933,9 +974,11 @@
   - 3308
   - 3728
   - 4458
-  type: 4
 24:
+  data_start: 100
+  data_stop: 10100
   diagnosis: Neoplasm
+  file_num: 24
   ii_start:
   - 100
   - 2475
@@ -944,8 +987,9 @@
   - 2422
   - 4692
   - 10100
-  patient: RID250_ac5b1126
-  portal_id: RID250_ac5b1126
+  patient: ICUDataRedux_0083
+  portal_id: ICUDataRedux_0083
+  pt_type: 1
   sz_presence: 1
   sz_start:
   - 2422
@@ -953,9 +997,11 @@
   sz_stop:
   - 2475
   - 4723
-  type: 4
 25:
+  data_start: 1000
+  data_stop: 6000
   diagnosis: ICH
+  file_num: 25
   ii_start:
   - 1000
   - 1193
@@ -964,8 +1010,9 @@
   - 1036
   - 2193
   - 6000
-  patient: RID251_702ac93f
-  portal_id: RID251_702ac93f
+  patient: ICUDataRedux_0084
+  portal_id: ICUDataRedux_0084
+  pt_type: 1
   sz_presence: 1
   sz_start:
   - 1036
@@ -973,9 +1020,11 @@
   sz_stop:
   - 1193
   - 2330
-  type: 4
 26:
-  diagnosis: Sepsis/SZ
+  data_start: 79
+  data_stop: 15164
+  diagnosis: Sepsis
+  file_num: 26
   ii_start:
   - 243
   - 720
@@ -1020,8 +1069,9 @@
   - 12037
   - 13467
   - 14747
-  patient: RID252_68561f5b
-  portal_id: RID252_68561f5b
+  patient: ICUDataRedux_0085
+  portal_id: ICUDataRedux_0085
+  pt_type: 1
   sz_presence: 1
   sz_start:
   - 79
@@ -1069,9 +1119,11 @@
   - 12409
   - 13601
   - 15164
-  type: 4
 27:
+  data_start: 1941
+  data_stop: 11515
   diagnosis: SZ
+  file_num: 27
   ii_start:
   - 1997
   - 3205
@@ -1104,8 +1156,9 @@
   - 10835
   - 11300
   - 11462
-  patient: RID253_ae81bb9b
-  portal_id: RID253_ae81bb9b
+  patient: ICUDataRedux_0086
+  portal_id: ICUDataRedux_0086
+  pt_type: 1
   sz_presence: 1
   sz_start:
   - 1941
@@ -1141,9 +1194,11 @@
   - 10885
   - 11336
   - 11515
-  type: 4
 28:
-  diagnosis: misc/unknown
+  data_start: 2000
+  data_stop: 12000
+  diagnosis: Misc/UC
+  file_num: 28
   ii_start:
   - 2000
   - 2275
@@ -1158,8 +1213,9 @@
   - 4230
   - 8665
   - 12000
-  patient: RID254_a69203f2
-  portal_id: RID254_a69203f2
+  patient: ICUDataRedux_0087
+  portal_id: ICUDataRedux_0087
+  pt_type: 1
   sz_presence: 1
   sz_start:
   - 2230
@@ -1173,13 +1229,11 @@
   - 3547
   - 4320
   - 8799
-  type: 4
-29:
-  iic_start: 2000
-  iic_stop: 12000
-  patient: RID255_1d400f18
 30:
-  diagnosis: pneumonia/SZ
+  data_start: 30
+  data_stop: 8030
+  diagnosis: Sepsis
+  file_num: 30
   ii_start:
   - 30
   - 434
@@ -1194,8 +1248,9 @@
   - 4939
   - 7119
   - 8030
-  patient: RID256_a80ca08c
-  portal_id: RID256_a80ca08c
+  patient: ICUDataRedux_0089
+  portal_id: ICUDataRedux_0089
+  pt_type: 1
   sz_presence: 1
   sz_start:
   - 48
@@ -1209,9 +1264,11 @@
   - 3293
   - 5199
   - 7233
-  type: 4
 31:
+  data_start: 3000
+  data_stop: 8000
   diagnosis: SZ
+  file_num: 31
   ii_start:
   - 3000
   - 3250
@@ -1252,8 +1309,9 @@
   - 6607
   - 6723
   - 8000
-  patient: RID257_5e2a16b8
-  portal_id: RID257_5e2a16b8
+  patient: ICUDataRedux_0090
+  portal_id: ICUDataRedux_0090
+  pt_type: 1
   sz_presence: 1
   sz_start:
   - 3205
@@ -1293,9 +1351,11 @@
   - 6556
   - 6696
   - 6776
-  type: 3
 32:
-  diagnosis: misc/unknown
+  data_start: 400
+  data_stop: 2400
+  diagnosis: Misc/UC
+  file_num: 32
   ii_start:
   - 400
   - 747
@@ -1306,8 +1366,9 @@
   - 980
   - 1825
   - 2400
-  patient: RID258_d6280c8b
-  portal_id: RID258_d6280c8b
+  patient: ICUDataRedux_0091
+  portal_id: ICUDataRedux_0091
+  pt_type: 1
   sz_presence: 1
   sz_start:
   - 468
@@ -1317,506 +1378,661 @@
   - 747
   - 1312
   - 2160
-  type: 4
 33:
-  diagnosis: anoxic
-  ii_start: 100
-  ii_stop: 10100
+  data_start: 100
+  data_stop: 10100
+  diagnosis: Anoxic
+  file_num: 33
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT684
   portal_id: CNT684
+  pt_type: 1
   sz_presence: 2
 34:
-  diagnosis: unspecified coma
-  ii_start: 100
-  ii_stop: 10100
+  data_start: 100
+  data_stop: 10100
+  diagnosis: Misc/UC
+  file_num: 34
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT685
   portal_id: CNT685
+  pt_type: 1
   sz_presence: 2
 35:
-  diagnosis: anoxic
-  ii_start: 100
-  ii_stop: 10100
+  data_start: 100
+  data_stop: 10100
+  diagnosis: Anoxic
+  file_num: 35
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT686
   portal_id: CNT686
+  pt_type: 1
   sz_presence: 2
 36:
-  diagnosis: toxometabolic
-  ii_start: 100
-  ii_stop: 10100
+  data_start: 100
+  data_stop: 10100
+  diagnosis: Toxometabolic
+  file_num: 36
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT687
   portal_id: CNT687
+  pt_type: 1
   sz_presence: 2
 37:
-  diagnosis: toxometabolic
-  ii_start: 100
-  ii_stop: 10100
+  data_start: 100
+  data_stop: 10100
+  diagnosis: Toxometabolic
+  file_num: 37
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT688
   portal_id: CNT688
+  pt_type: 1
   sz_presence: 2
-  sz_start: 100
-  sz_stop: 10100
 38:
-  diagnosis: toxometabolic
-  ii_start: 100
-  ii_stop: 10100
+  data_start: 100
+  data_stop: 10100
+  diagnosis: Toxometabolic
+  file_num: 38
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT689
   portal_id: CNT689
+  pt_type: 1
   sz_presence: 2
-  sz_start: 100
-  sz_stop: 10100
 39:
+  data_start: 100
+  data_stop: 10100
   diagnosis: ICH
-  ii_start: 100
-  ii_stop: 10100
+  file_num: 39
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT690
   portal_id: CNT690
+  pt_type: 1
   sz_presence: 2
-  sz_start: 100
-  sz_stop: 10100
 40:
+  data_start: 100
+  data_stop: 10100
   diagnosis: SZ
-  ii_start: 100
-  ii_stop: 10100
+  file_num: 40
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT691
   portal_id: CNT691
+  pt_type: 1
   sz_presence: 2
-  sz_start: 100
-  sz_stop: 10100
 41:
-  diagnosis: anoxic
-  ii_start: 100
-  ii_stop: 10100
+  data_start: 100
+  data_stop: 10100
+  diagnosis: Anoxic
+  file_num: 41
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT692
   portal_id: CNT692
+  pt_type: 1
   sz_presence: 2
-  sz_start: 100
-  sz_stop: 10100
 42:
-  diagnosis: unspecified coma
-  ii_start: 100
-  ii_stop: 10100
+  data_start: 100
+  data_stop: 10100
+  diagnosis: Misc/UC
+  file_num: 42
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT694
   portal_id: CNT694
+  pt_type: 1
   sz_presence: 2
-  sz_start: 100
-  sz_stop: 10100
 43:
-  diagnosis: toxometabolic
-  ii_start: 100
-  ii_stop: 10100
+  data_start: 100
+  data_stop: 10100
+  diagnosis: Toxometabolic
+  file_num: 43
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT695
   portal_id: CNT695
+  pt_type: 1
   sz_presence: 2
-  sz_start: 100
-  sz_stop: 10100
 44:
+  data_start: 100
+  data_stop: 10100
   diagnosis: AMS
-  ii_start: 100
-  ii_stop: 10100
+  file_num: 44
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT698
   portal_id: CNT698
+  pt_type: 1
   sz_presence: 2
-  sz_start: 100
-  sz_stop: 10100
 45:
+  data_start: 100
+  data_stop: 10100
   diagnosis: SZ
-  ii_start: 100
-  ii_stop: 10100
+  file_num: 45
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT700
   portal_id: CNT700
+  pt_type: 1
   sz_presence: 2
-  sz_start: 100
-  sz_stop: 10100
 46:
-  diagnosis: toxometabolic
-  ii_start: 100
-  ii_stop: 10100
+  data_start: 100
+  data_stop: 10100
+  diagnosis: Toxometabolic
+  file_num: 46
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT701
   portal_id: CNT701
+  pt_type: 1
   sz_presence: 2
-  sz_start: 100
-  sz_stop: 10100
 47:
+  data_start: 100
+  data_stop: 10100
   diagnosis: ICH
-  ii_start: 100
-  ii_stop: 10100
+  file_num: 47
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT702
   portal_id: CNT702
+  pt_type: 1
   sz_presence: 2
-  sz_start: 100
-  sz_stop: 10100
 48:
-  diagnosis: unspecified coma
-  ii_start: 100
-  ii_stop: 10100
+  data_start: 100
+  data_stop: 10100
+  diagnosis: Misc/UC
+  file_num: 48
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT705
   portal_id: CNT705
+  pt_type: 1
   sz_presence: 2
-  sz_start: 100
-  sz_stop: 10100
 49:
+  data_start: 100
+  data_stop: 10100
   diagnosis: AMS
-  ii_start: 100
-  ii_stop: 10100
+  file_num: 49
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT706
   portal_id: CNT706
+  pt_type: 1
   sz_presence: 2
-  sz_start: 100
-  sz_stop: 10100
 50:
+  data_start: 100
+  data_stop: 10100
   diagnosis: ICH
-  ii_start: 100
-  ii_stop: 10100
+  file_num: 50
+  ii_start:
+  - 100
+  ii_stop:
+  - 10100
   patient: CNT708
   portal_id: CNT708
+  pt_type: 1
   sz_presence: 2
-  sz_start: 100
-  sz_stop: 10100
 51:
+  data_start: 3000
+  data_stop: 13000
   diagnosis: SZ
-  ii_start: 3000
-  ii_stop: 13000
+  file_num: 51
+  ii_start:
+  - 3000
+  ii_stop:
+  - 13000
   patient: CNT710
   portal_id: CNT710
+  pt_type: 1
   sz_presence: 2
-  sz_start:
-  - 0
-  - 0
-  sz_stop:
-  - 0
-  - 0
-  type: 3
 52:
+  data_start: 5000
+  data_stop: 15000
   diagnosis: Neoplasm
-  ii_start: 5000
-  ii_stop: 15000
+  file_num: 52
+  ii_start:
+  - 5000
+  ii_stop:
+  - 15000
   patient: CNT711
   portal_id: CNT711
+  pt_type: 1
   sz_presence: 2
-  sz_start:
-  - 0
-  - 0
-  sz_stop:
-  - 0
-  - 0
-  type: 4
 53:
-  diagnosis: unspecified coma
-  ii_start: 1000
-  ii_stop: 11000
+  data_start: 1000
+  data_stop: 11000
+  diagnosis: Misc/UC
+  file_num: 53
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
   patient: CNT713
   portal_id: CNT713
+  pt_type: 1
   sz_presence: 2
-  sz_start:
-  - 0
-  - 0
-  sz_stop:
-  - 0
-  - 0
-  type: 4
 54:
+  data_start: 5000
+  data_stop: 15000
   diagnosis: SZ
-  ii_start: 5000
-  ii_stop: 15000
+  file_num: 54
+  ii_start:
+  - 5000
+  ii_stop:
+  - 15000
   patient: CNT715
   portal_id: CNT715
+  pt_type: 1
   sz_presence: 2
-  sz_start:
-  - 0
-  - 0
-  sz_stop:
-  - 0
-  - 0
-  type: 3
 57:
+  data_start: 1000
+  data_stop: 11000
   diagnosis: SZ
-  ii_start: 1000
-  ii_stop: 11000
+  file_num: 57
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
   patient: CNT720
   portal_id: CNT720
+  pt_type: 1
   sz_presence: 2
-  sz_start:
-  - 0
-  - 0
-  sz_stop:
-  - 0
-  - 0
-  type: 3
 59:
-  diagnosis: toxometabolic
-  ii_start: 3000
-  ii_stop: 13000
+  data_start: 3000
+  data_stop: 13000
+  diagnosis: Toxometabolic
+  file_num: 59
+  ii_start:
+  - 3000
+  ii_stop:
+  - 13000
   patient: CNT723
   portal_id: CNT723
+  pt_type: 1
   sz_presence: 2
-  sz_start:
-  - 0
-  - 0
-  sz_stop:
-  - 0
-  - 0
-  type: 4
 60:
-  diagnosis: unspecified coma
-  ii_start: 2000
-  ii_stop: 12000
+  data_start: 2000
+  data_stop: 12000
+  diagnosis: Misc/UC
+  file_num: 60
+  ii_start:
+  - 2000
+  ii_stop:
+  - 12000
   patient: CNT724
   portal_id: CNT724
+  pt_type: 1
   sz_presence: 2
-  sz_start:
-  - 0
-  - 0
-  sz_stop:
-  - 0
-  - 0
-  type: 4
 61:
+  data_start: 3000
+  data_stop: 13000
   diagnosis: Neoplasm
-  ii_start: 3000
-  ii_stop: 13000
+  file_num: 61
+  ii_start:
+  - 3000
+  ii_stop:
+  - 13000
   patient: CNT725
   portal_id: CNT725
+  pt_type: 1
   sz_presence: 2
-  sz_start:
-  - 0
-  - 0
-  sz_stop:
-  - 0
-  - 0
-  type: 4
 62:
-  diagnosis: unspecified coma
-  ii_start: 3000
-  ii_stop: 13000
+  data_start: 3000
+  data_stop: 13000
+  diagnosis: Misc/UC
+  file_num: 62
+  ii_start:
+  - 3000
+  ii_stop:
+  - 13000
   patient: CNT726
   portal_id: CNT726
+  pt_type: 1
   sz_presence: 2
-  sz_start:
-  - 0
-  - 0
-  sz_stop:
-  - 0
-  - 0
-  type: 4
 63:
-  diagnosis: unspecified coma
-  ii_start: 1000
-  ii_stop: 11000
+  data_start: 1000
+  data_stop: 11000
+  diagnosis: Misc/UC
+  file_num: 63
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
   patient: CNT729
   portal_id: CNT729
+  pt_type: 1
   sz_presence: 2
-  sz_start:
-  - 0
-  - 0
-  sz_stop:
-  - 0
-  - 0
-  type: 4
 64:
-  diagnosis: unspecified coma
-  ii_start: 3000
-  ii_stop: 13000
+  data_start: 3000
+  data_stop: 13000
+  diagnosis: Misc/UC
+  file_num: 64
+  ii_start:
+  - 3000
+  ii_stop:
+  - 13000
   patient: CNT730
   portal_id: CNT730
+  pt_type: 1
   sz_presence: 2
-  sz_start:
-  - 0
-  - 0
-  sz_stop:
-  - 0
-  - 0
-  type: 4
 65:
+  data_start: 1000
+  data_stop: 11000
   diagnosis: ICH
-  ii_start: 1000
-  ii_stop: 11000
+  file_num: 65
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
   patient: CNT731
   portal_id: CNT731
+  pt_type: 1
   sz_presence: 2
-  sz_start:
-  - 0
-  - 0
-  sz_stop:
-  - 0
-  - 0
-  type: 2
 66:
-  diagnosis: unspecified coma
-  ii_start: 1000
-  ii_stop: 11000
+  data_start: 1000
+  data_stop: 11000
+  diagnosis: Misc/UC
+  file_num: 66
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
   patient: CNT732
   portal_id: CNT732
+  pt_type: 1
   sz_presence: 2
-  sz_start:
-  - 0
-  - 0
-  sz_stop:
-  - 0
-  - 0
-  type: 4
 67:
+  data_start: 3000
+  data_stop: 13000
   diagnosis: AMS
-  ii_start: 3000
-  ii_stop: 13000
+  file_num: 67
+  ii_start:
+  - 3000
+  ii_stop:
+  - 13000
   patient: CNT733
   portal_id: CNT733
+  pt_type: 1
   sz_presence: 2
-  sz_start:
-  - 0
-  - 0
-  sz_stop:
-  - 0
-  - 0
-  type: 1
 68:
+  data_start: 1000
+  data_stop: 11000
   diagnosis: AMS
-  ii_start: 1000
-  ii_stop: 11000
+  file_num: 68
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
   patient: CNT734
   portal_id: CNT734
+  pt_type: 1
   sz_presence: 2
-  sz_start:
-  - 0
-  - 0
-  sz_stop:
-  - 0
-  - 0
-  type: 1
 69:
+  data_start: 2000
+  data_stop: 12000
   diagnosis: AMS
-  ii_start: 2000
-  ii_stop: 12000
+  file_num: 69
+  ii_start:
+  - 2000
+  ii_stop:
+  - 12000
   patient: CNT737
   portal_id: CNT737
+  pt_type: 1
   sz_presence: 2
-  sz_start:
-  - 0
-  - 0
-  sz_stop:
-  - 0
-  - 0
-  type: 1
 70:
+  data_start: 1000
+  data_stop: 11000
   diagnosis: ICH
-  ii_start: 1000
-  ii_stop: 11000
+  file_num: 70
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
   patient: CNT740
   portal_id: CNT740
+  pt_type: 1
   sz_presence: 2
-  sz_start:
-  - 0
-  - 0
-  sz_stop:
-  - 0
-  - 0
-  type: 2
 71:
+  data_start: 40000
+  data_stop: 50000
   diagnosis: ICH
-  ii_start: 40000
-  ii_stop: 50000
+  file_num: 71
+  ii_start:
+  - 40000
+  ii_stop:
+  - 50000
   patient: CNT741
   portal_id: CNT741
+  pt_type: 1
   sz_presence: 2
 72:
+  data_start: 1000
+  data_stop: 11000
   diagnosis: ICH
-  ii_start: 1000
-  ii_stop: 11000
+  file_num: 72
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
   patient: CNT742
   portal_id: CNT742
+  pt_type: 1
   sz_presence: 2
 73:
+  data_start: 1000
+  data_stop: 11000
   diagnosis: Neoplasm
-  ii_start: 1000
-  ii_stop: 11000
+  file_num: 73
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
   patient: CNT743
   portal_id: CNT743
+  pt_type: 1
   sz_presence: 2
 74:
-  diagnosis: anoxic
-  ii_start: 8000
-  ii_stop: 18000
+  data_start: 8000
+  data_stop: 18000
+  diagnosis: Anoxic
+  file_num: 74
+  ii_start:
+  - 8000
+  ii_stop:
+  - 18000
   patient: CNT748
   portal_id: CNT748
+  pt_type: 1
   sz_presence: 2
 75:
+  data_start: 3000
+  data_stop: 13000
   diagnosis: ICH
-  ii_start: 3000
-  ii_stop: 13000
+  file_num: 75
+  ii_start:
+  - 3000
+  ii_stop:
+  - 13000
   patient: CNT750
   portal_id: CNT750
+  pt_type: 1
   sz_presence: 2
 76:
+  data_start: 1000
+  data_stop: 11000
   diagnosis: ICH
-  ii_start: 1000
-  ii_stop: 11000
+  file_num: 76
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
   patient: CNT751
   portal_id: CNT751
+  pt_type: 1
   sz_presence: 2
 77:
+  data_start: 9000
+  data_stop: 19000
   diagnosis: AMS
-  ii_start: 9000
-  ii_stop: 19000
+  file_num: 77
+  ii_start:
+  - 9000
+  ii_stop:
+  - 19000
   patient: CNT757
   portal_id: CNT757
+  pt_type: 1
   sz_presence: 2
 78:
-  diagnosis: toxometabolic
-  ii_start: 1000
-  ii_stop: 11000
+  data_start: 1000
+  data_stop: 11000
+  diagnosis: Toxometabolic
+  file_num: 78
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
   patient: CNT758
   portal_id: CNT758
+  pt_type: 1
   sz_presence: 2
 79:
+  data_start: 1000
+  data_stop: 11000
   diagnosis: ICH
-  ii_start: 1000
-  ii_stop: 11000
+  file_num: 79
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
   patient: CNT765
   portal_id: CNT765
+  pt_type: 1
   sz_presence: 2
 80:
+  data_start: 1000
+  data_stop: 11000
   diagnosis: ICH
-  ii_start: 1000
-  ii_stop: 11000
+  file_num: 80
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
   patient: CNT773
   portal_id: CNT773
+  pt_type: 1
   sz_presence: 2
 81:
-  diagnosis: toxometabolic
-  ii_start: 35000
-  ii_stop: 45000
+  data_start: 35000
+  data_stop: 45000
+  diagnosis: Toxometabolic
+  file_num: 81
+  ii_start:
+  - 35000
+  ii_stop:
+  - 45000
   patient: CNT774
   portal_id: CNT774
+  pt_type: 1
   sz_presence: 2
 82:
-  diagnosis: toxometabolic
-  ii_start: 7000
-  ii_stop: 17000
+  data_start: 7000
+  data_stop: 17000
+  diagnosis: Toxometabolic
+  file_num: 82
+  ii_start:
+  - 7000
+  ii_stop:
+  - 17000
   patient: CNT775
   portal_id: CNT775
+  pt_type: 1
   sz_presence: 2
 83:
-  diagnosis: unspecified coma
-  ii_start: 2000
-  ii_stop: 12000
+  data_start: 2000
+  data_stop: 12000
+  diagnosis: Misc/UC
+  file_num: 83
+  ii_start:
+  - 2000
+  ii_stop:
+  - 12000
   patient: CNT776
   portal_id: CNT776
+  pt_type: 1
   sz_presence: 2
 84:
+  data_start: 13000
+  data_stop: 23000
   diagnosis: ICH
-  ii_start: 13000
-  ii_stop: 23000
+  file_num: 84
+  ii_start:
+  - 13000
+  ii_stop:
+  - 23000
   patient: CNT778
   portal_id: CNT778
+  pt_type: 1
   sz_presence: 2
 85:
+  data_start: 6000
+  data_stop: 16000
   diagnosis: AMS
-  ii_start: 6000
-  ii_stop: 16000
+  file_num: 85
+  ii_start:
+  - 6000
+  ii_stop:
+  - 16000
   patient: CNT782
   portal_id: CNT782
+  pt_type: 1
   sz_presence: 2
 92:
+  data_start: 25000
+  data_stop: 30000
   diagnosis: Neoplasm
+  file_num: 92
   ii_start:
   - 25000
   - 26019
@@ -1825,11 +2041,17 @@
   - 30000
   patient: ICUDataRedux_0003
   portal_id: ICUDataRedux_0003
+  pt_type: 1
   sz_presence: 1
-  sz_start: 25923
-  sz_stop: 26019
+  sz_start:
+  - 25923
+  sz_stop:
+  - 26019
 93:
+  data_start: 20000
+  data_stop: 30000
   diagnosis: Neoplasm
+  file_num: 93
   ii_start:
   - 20000
   - 23136
@@ -1838,11 +2060,17 @@
   - 30000
   patient: ICUDataRedux_0004
   portal_id: ICUDataRedux_0004
+  pt_type: 1
   sz_presence: 1
-  sz_start: 23125
-  sz_stop: 23136
+  sz_start:
+  - 23125
+  sz_stop:
+  - 23136
 94:
-  diagnosis: misc/unknown
+  data_start: 20600
+  data_stop: 25600
+  diagnosis: Misc/UC
+  file_num: 94
   ii_start:
   - 20600
   - 25389
@@ -1851,156 +2079,397 @@
   - 25600
   patient: ICUDataRedux_0006
   portal_id: ICUDataRedux_0006
+  pt_type: 1
   sz_presence: 1
-  sz_start: 24807
-  sz_stop: 25389
-95:
-  diagnosis: '?'
-  iic_start: 3000
-  iic_stop: 13000
-  patient: ICUDataRedux_0007
-  portal_id: ICUDataRedux_0007
-  sz_presence: 3
-96:
-  diagnosis: '?'
-  iic_start: 2000
-  iic_stop: 12000
-  patient: ICUDataRedux_0008
-  portal_id: ICUDataRedux_0008
-  sz_presence: 3
-97:
-  diagnosis: '?'
-  iic_start: 4000
-  iic_stop: 14000
-  patient: ICUDataRedux_0009
-  portal_id: ICUDataRedux_0009
-  sz_presence: 3
-98:
-  diagnosis: '?'
-  iic_start: 12000
-  iic_stop: 22000
-  patient: ICUDataRedux_0010
-  portal_id: ICUDataRedux_0010
-  sz_presence: 3
-99:
-  diagnosis: '?'
-  iic_start: 4000
-  iic_stop: 14000
-  patient: ICUDataRedux_0011
-  portal_id: ICUDataRedux_0011
-  sz_presence: 3
-100:
-  diagnosis: '?'
-  iic_start: 2000
-  iic_stop: 12000
-  patient: ICUDataRedux_0012
-  portal_id: ICUDataRedux_0012
-  sz_presence: 3
-101:
-  diagnosis: '?'
-  iic_start: 1000
-  iic_stop: 11000
-  patient: ICUDataRedux_0013
-  portal_id: ICUDataRedux_0013
-  sz_presence: 3
-102:
-  diagnosis: '?'
-  iic_start: 3000
-  iic_stop: 13000
-  patient: ICUDataRedux_0014
-  portal_id: ICUDataRedux_0014
-  sz_presence: 3
-103:
-  diagnosis: '?'
-  iic_start: 2000
-  iic_stop: 12000
-  patient: ICUDataRedux_0015
-  portal_id: ICUDataRedux_0015
-  sz_presence: 3
-104:
-  diagnosis: '?'
-  iic_start: 2000
-  iic_stop: 12000
-  patient: ICUDataRedux_0016
-  portal_id: ICUDataRedux_0016
-  sz_presence: 3
-105:
-  diagnosis: '?'
-  iic_start: 9000
-  iic_stop: 19000
-  patient: ICUDataRedux_0017
-  portal_id: ICUDataRedux_0017
-  sz_presence: 3
-106:
-  diagnosis: '?'
-  iic_start: 2000
-  iic_stop: 12000
-  patient: ICUDataRedux_0018
-  portal_id: ICUDataRedux_0018
-  sz_presence: 3
-107:
-  diagnosis: '?'
-  iic_start: 1000
-  iic_stop: 11000
-  patient: ICUDataRedux_0019
-  portal_id: ICUDataRedux_0019
-  sz_presence: 3
-108:
-  diagnosis: '?'
-  iic_start: 13000
-  iic_stop: 23000
-  patient: ICUDataRedux_0020
-  portal_id: ICUDataRedux_0020
-  sz_presence: 3
-110:
-  ii_start:
-  - 819
-  - 864
-  - 917
-  - 969
-  - 1018
-  - 1073
-  - 1121
-  - 1176
-  - 1229
-  - 1296
-  - 1366
-  - 1441
-  ii_stop:
-  - 829
-  - 879
-  - 932
-  - 989
-  - 1035
-  - 1089
-  - 1144
-  - 1195
-  - 1266
-  - 1331
-  - 1404
-  - 2600
-  patient: ICUDataRedux_0022
   sz_start:
-  - 829
-  - 879
-  - 932
-  - 989
-  - 1035
-  - 1089
-  - 1144
-  - 1195
-  - 1266
-  - 1331
-  - 1404
+  - 24807
   sz_stop:
-  - 864
-  - 917
-  - 969
-  - 1018
-  - 1073
-  - 1121
-  - 1176
-  - 1229
-  - 1296
-  - 1366
-  - 1441
+  - 25389
+113:
+  data_start: 20000
+  data_stop: 40000
+  diagnosis: SZ
+  file_num: 113
+  ii_start:
+  - 20000
+  - 33151
+  ii_stop:
+  - 33019
+  - 40000
+  patient: CNT929
+  portal_id: CNT929
+  pt_type: 1
+  sz_presence: 1
+  sz_start:
+  - 33019
+  sz_stop:
+  - 33151
+116:
+  data_start: 10000
+  data_stop: 20000
+  diagnosis: AMS
+  file_num: 116
+  ii_start:
+  - 10000
+  - 15709
+  ii_stop:
+  - 14800
+  - 20000
+  patient: ICUDataRedux_0027
+  portal_id: ICUDataRedux_0027
+  pt_type: 1
+  sz_presence: 1
+  sz_start:
+  - 14800
+  sz_stop:
+  - 15709
+117:
+  data_start: 71000
+  data_stop: 81000
+  diagnosis: 'AMS '
+  file_num: 117
+  ii_start:
+  - 71000
+  - 75805
+  - 78447
+  - 80508
+  ii_stop:
+  - 75383
+  - 78293
+  - 80154
+  - 81000
+  patient: ICUDataRedux_0028
+  portal_id: ICUDataRedux_0028
+  pt_type: 1
+  sz_presence: 1
+  sz_start:
+  - 75383
+  - 78293
+  - 80154
+  sz_stop:
+  - 75805
+  - 78447
+  - 80508
+118:
+  data_start: 800
+  data_stop: 5800
+  diagnosis: 'AMS '
+  file_num: 118
+  ii_start:
+  - 800
+  - 834
+  - 1187
+  - 1447
+  - 3158
+  - 3719
+  - 5716
+  ii_stop:
+  - 807
+  - 1162
+  - 1383
+  - 3131
+  - 3585
+  - 5618
+  - 5800
+  patient: ICUDataRedux_0033
+  portal_id: ICUDataRedux_0033
+  pt_type: 1
+  sz_presence: 1
+  sz_start:
+  - 807
+  - 1162
+  - 1383
+  - 3131
+  - 3585
+  - 5618
+  sz_stop:
+  - 834
+  - 1187
+  - 1447
+  - 3158
+  - 3719
+  - 5716
+119:
+  data_start: 200
+  data_stop: 2200
+  diagnosis: SZ
+  file_num: 119
+  ii_start:
+  - 200
+  - 435
+  ii_stop:
+  - 242
+  - 2200
+  patient: ICUDataRedux_0036
+  portal_id: ICUDataRedux_0036
+  pt_type: 1
+  sz_presence: 1
+  sz_start:
+  - 242
+  sz_stop:
+  - 435
+120:
+  data_start: 2000
+  data_stop: 7000
+  diagnosis: SZ
+  file_num: 120
+  ii_start:
+  - 0
+  - 0
+  ii_stop:
+  - 0
+  - 0
+  patient: ICUDataRedux_0040
+  portal_id: ICUDataRedux_0040
+  pt_type: 1
+  sz_presence: 1
+  sz_start:
+  - 2000
+  sz_stop:
+  - 7000
+121:
+  data_start: 3000
+  data_stop: 16000
+  diagnosis: Misc/UC
+  file_num: 121
+  ii_start:
+  - 3000
+  - 3331
+  - 15128
+  ii_stop:
+  - 3251
+  - 15103
+  - 16000
+  patient: ICUDataRedux_0042
+  portal_id: ICUDataRedux_0042
+  pt_type: 1
+  sz_presence: 1
+  sz_start:
+  - 3251
+  - 15103
+  sz_stop:
+  - 3331
+  - 15128
+122:
+  data_start: 5000
+  data_stop: 12000
+  diagnosis: 'SZ '
+  file_num: 122
+  ii_start:
+  - 5000
+  - 9773
+  ii_stop:
+  - 9678
+  - 12000
+  patient: ICUDataRedux_0045
+  portal_id: ICUDataRedux_0045
+  pt_type: 1
+  sz_presence: 1
+  sz_start:
+  - 9678
+  sz_stop:
+  - 9773
+123:
+  data_start: 100
+  data_stop: 10100
+  diagnosis: ICH
+  file_num: 123
+  ii_start:
+  - 100
+  - 3583
+  - 3660
+  - 7164
+  - 9501
+  - 9574
+  - 9625
+  - 9761
+  - 9854
+  - 9976
+  ii_stop:
+  - 3501
+  - 3607
+  - 7119
+  - 9485
+  - 9560
+  - 9595
+  - 9732
+  - 9821
+  - 9928
+  - 10100
+  patient: ICUDataRedux_0049
+  portal_id: ICUDataRedux_0049
+  pt_type: 1
+  sz_presence: 1
+  sz_start:
+  - 3501
+  - 3607
+  - 7119
+  - 9485
+  - 9560
+  - 9595
+  - 9732
+  - 9821
+  - 9928
+  sz_stop:
+  - 3583
+  - 3660
+  - 7164
+  - 9501
+  - 9574
+  - 9625
+  - 9761
+  - 9854
+  - 9976
+124:
+  data_start: 3000
+  data_stop: 8000
+  diagnosis: SZ
+  file_num: 124
+  ii_start:
+  - 3000
+  - 3177
+  - 5384
+  ii_stop:
+  - 3119
+  - 5316
+  - 8000
+  patient: ICUDataRedux_0050
+  portal_id: ICUDataRedux_0050
+  pt_type: 1
+  sz_presence: 1
+  sz_start:
+  - 3119
+  - 5316
+  sz_stop:
+  - 3177
+  - 5384
+125:
+  data_start: 1000
+  data_stop: 11000
+  diagnosis: Sepsis
+  file_num: 125
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
+  patient: ICUDataRedux_0023
+  portal_id: ICUDataRedux_0023
+  pt_type: 1
+  sz_presence: 2
+126:
+  data_start: 1000
+  data_stop: 11000
+  diagnosis: ICH
+  file_num: 126
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
+  patient: ICUDataRedux_0026
+  portal_id: ICUDataRedux_0026
+  pt_type: 1
+  sz_presence: 2
+127:
+  data_start: 1000
+  data_stop: 11000
+  diagnosis: Anoxic
+  file_num: 127
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
+  patient: ICUDataRedux_0029
+  portal_id: ICUDataRedux_0029
+  pt_type: 1
+  sz_presence: 2
+128:
+  data_start: 1000
+  data_stop: 11000
+  diagnosis: ICH
+  file_num: 128
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
+  patient: ICUDataRedux_0030
+  portal_id: ICUDataRedux_0030
+  pt_type: 1
+  sz_presence: 2
+129:
+  data_start: 1000
+  data_stop: 11000
+  diagnosis: SZ
+  file_num: 129
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
+  patient: ICUDataRedux_0034
+  portal_id: ICUDataRedux_0034
+  pt_type: 1
+  sz_presence: 2
+130:
+  data_start: 1000
+  data_stop: 11000
+  diagnosis: AMS
+  file_num: 130
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
+  patient: ICUDataRedux_0035
+  portal_id: ICUDataRedux_0035
+  pt_type: 1
+  sz_presence: 2
+131:
+  data_start: 1000
+  data_stop: 11000
+  diagnosis: SZ
+  file_num: 131
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
+  patient: ICUDataRedux_0043
+  portal_id: ICUDataRedux_0043
+  pt_type: 1
+  sz_presence: 2
+132:
+  data_start: 1000
+  data_stop: 11000
+  diagnosis: Anoxic
+  file_num: 132
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
+  patient: ICUDataRedux_0044
+  portal_id: ICUDataRedux_0044
+  pt_type: 1
+  sz_presence: 2
+133:
+  data_start: 1000
+  data_stop: 11000
+  diagnosis: AMS
+  file_num: 133
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
+  patient: ICUDataRedux_0047
+  portal_id: ICUDataRedux_0047
+  pt_type: 1
+  sz_presence: 2
+134:
+  data_start: 1000
+  data_stop: 11000
+  diagnosis: Sepsis
+  file_num: 134
+  ii_start:
+  - 1000
+  ii_stop:
+  - 11000
+  patient: ICUDataRedux_0048
+  portal_id: ICUDataRedux_0048
+  pt_type: 1
+  sz_presence: 2
