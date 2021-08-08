@@ -16,8 +16,10 @@ def ndarray_uint16_utf16_to_string(arr):
     arr_str = arr_bytes.decode('utf-16')
     return arr_str
 ```
-
+### hdf5 references
 But sometimes you get a dataset of hdf5 references.
+In python's h5py module, these are represented as python objects (see [Using object references](https://docs.h5py.org/en/stable/refs.html)
+
 For example:
 ```ipython
 In [1]: import h5py
@@ -27,7 +29,7 @@ In [3]: hf
 Out[3]: <HDF5 file \"annot_1.mat\" (mode r)>
 
 In [4]: dsobj = hf['annot']['patient']
-In [5]: dsobj
+In [5]: dsobj # a hdf5 dataset of python objects
 Out[5]: <HDF5 dataset "patient": shape (1, 1), type "|O">
 
 In [6]: dsobj.len(), dsobj.shape
@@ -38,7 +40,7 @@ The key thing is that the dtype of this data is object:
 In [7]: dsobj.dtype
 Out[7]: dtype('O')
 ```
-Given that the shape of the dataset is (1,1), we can get that single object with
+Given that the shape of the dataset is (1,1), we can get that single reference object with:
 ```
 In [8]: ref = dsobj[0,0]
 
