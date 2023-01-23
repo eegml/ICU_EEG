@@ -48,10 +48,19 @@ asstr_latin1 = lambda b: b.decode('latin1')
 asbytes_utf8 = lambda s: s.encode('utf-8') # may want utf-8
 asstr_utf8 = lambda b: b.decode('utf-8')
 
+# %% [markdown]
+# MATLAB stores all characters as Unicode characters using the UTF-16 encoding, where every character is represented by a numeric code value. (Unicode incorporates the ASCII character set as the first 128 symbols, so ASCII characters have the same numeric codes in Unicode and ASCII.) Both character arrays and string arrays use this encoding. You can convert characters to their numeric code values by using various numeric conversion functions. You can convert numbers to characters using the char function.
+# [link to matlab docs for R2021a](https://www.mathworks.com/help/matlab/matlab_prog/unicode-and-ascii-values.html#:~:text=MATLAB%C2%AE%20stores%20all%20characters,by%20a%20numeric%20code%20value.&text=Both%20character%20arrays%20and%20string%20arrays%20use%20this%20encoding)
+# %%
 def ndarray_uint16_to_string(arr):
-    arr_uint = arr.astype('uint8') # truncate off 2nd byte np.unicode_ type instead?
+    arr_uint = arr.astype('uint8') # truncate off 2nd byte np.unicode_ type instead? or just use utf-16
     arr_bytes = arr_uint.tobytes()
     return asstr_utf8(arr_bytes)
+
+def ndarray_utf16_to_string(arr):
+    arr_bytes = arr.tobytes()
+    arr_str = arr_bytes.decode('utf-16')
+    return arr_str
 
 
 
@@ -98,7 +107,7 @@ len(ann)
 for kk, aa in ann.items():
     for jj, vv in aa.items():
         aa[jj] = np.squeeze(vv)
-    aa['patient'] = ndarray_uint16_to_string(aa['patient'])
+    aa['patient'] = ndarray_utf16_to_string(aa['patient'])
 
 
 # %%

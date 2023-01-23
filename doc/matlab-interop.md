@@ -3,7 +3,7 @@
 -The [mat4py](https://github.com/nephics/mat4py) packages works very well for mat files in Matlab v5 format. I think this is better than the scipy.io.loadmat
 
 - h5py can be used for matlab version 7.3+ mat files but there are some tricks I had to use to deal with hdf5 references. These are used sometimes but not always for string storage by matlab.
-
+- mat73 package that zhiyuan found
 ### unicode string representation
 
 matlab stores strings as utf-16
